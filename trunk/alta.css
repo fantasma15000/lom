@@ -1,0 +1,45 @@
+/* CSS Document */
+body { margin:0px; padding:0px; height:100%; font-family:Arial, Helvetica, sans-serif; font-size:14px; background:#666666; color:#555555; }
+p { text-align:justify; }
+h2, h3 { color:#FF6600; margin-bottom:5px; }
+h3 { margin-top:35px; }
+#container { width:930px; margin:0 auto; background:#E9E9E9; margin-top:20px; }
+#header { background:url(new_img/head_fdo.jpg) repeat-x top left; height:91px; }
+.logo { background:url(new_img/logo-dattatec.jpg) no-repeat top left; width:245px; height:61px; margin:18px 0px 0px 40px; float:left; }
+.logo span { position:absolute; top:-1000px; }
+.slogan { background:url(new_img/head_titulo.jpg) no-repeat top left; float:right; width:486px; height:57px; margin:21px 40px 0px 0px; }
+.slogan span { position:absolute; top:-1500px; }
+
+#contenido { width:540px; float:left; padding:20px 35px 30px 35px; background:#FFFFFF; }
+
+#lateral { width:319px; background:transparent; float:right; }
+.bloque_lateral { padding:15px 20px; }
+.bloque_lateral p { font-size:13px; }
+.separador { height:2px; background:url(new_img/separador_bg.gif) repeat-x bottom left; }
+#servicio { background:url(new_img/icono_info_servicio.gif) no-repeat 20px 15px; }
+#servicio ul { background:#FFFFFF; border:1px dotted #999999; margin:70px 0px 0px 0px; padding:10px; list-style-position:inside; }
+#servicio ul li { list-style-image:url(new_img/flechita.gif); line-height:28px; font-size:13px; }
+#servicio ul li a { font-size:13px; }
+
+#acerca { background:url(new_img/ic-acerca-dattatec.jpg) no-repeat 20px 15px; }
+#acerca p { margin:85px 0px 0px 0px; }
+#titulo_video { margin-top:12px !important; }
+#video { margin-top:3px !important; }
+
+#trabajaendattatec { background:url(new_img/ic-trabaja-en-dattatec.jpg) no-repeat 20px 15px; }
+#trabajaendattatec p { margin:55px 0px 0px 0px; }
+
+#microsoft { background:url(new_img/ic-dattatec-microsoft.jpg) no-repeat 20px 15px; }
+#microsoft p { margin:55px 0px 0px 0px; }
+
+#verisign { background:url(new_img/ic-dattatec-verisign.jpg) no-repeat 20px 15px; }
+#verisign p { margin:65px 0px 0px 0px; }
+
+#dattamagazine { background:url(new_img/ic-dattamagazine.jpg) no-repeat 20px 15px; }
+#dattamagazine p { margin:95px 0px 0px 0px; }
+
+#google { background:url(new_img/ic-dattatec-primero-en-google.jpg) no-repeat 20px 15px; }
+#google p { margin:50px 0px 0px 0px; }
+
+#pie { background:#FF6600; font-size:13px; padding:7px; }
+#pie p { margin:0px; text-align:center; color:#FFFFFF; }

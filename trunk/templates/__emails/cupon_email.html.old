@@ -1,0 +1,22 @@
+<html><body style="font-family:Arial; font-size:12px; margin: 0; padding: 20px;">
+	<div>
+		<a href="http://www.vivoensale.com"> <img src="%%GLOBAL_ShopPathNormal%%/product_images/logo.png" border="0" /></a>
+		<h1 style="font-size:20px; color:#00b050;">%%LNG_TituloCupon%%</h1>
+		<h2 style="font-size:18px; height:26px; color:#5A1745; border-bottom:dashed 1px gray;">%%LNG_SecurityCode%%: %%GLOBAL_CuponToken%%</h2>
+		<h2 style="font-size:18px; height:26px; color:#5A1745; border-bottom:dashed 1px gray;">%%LNG_ControlCode%%: %%GLOBAL_Control%%</h2>
+		
+		<p>
+		<b>Nombre:</b>  %%GLOBAL_First%% %%GLOBAL_Last%%<br /><br />
+		<b>V&aacute;lido hasta:</b>  %%GLOBAL_Validez%%<br /><br />
+		<b>Proveedor:</b> %%GLOBAL_Brandname%%<br />%%GLOBAL_Brandinfo%%<br /><br />
+		<b>Condici&oacute;n:</b>  %%GLOBAL_Maildescription%%<br /><br />
+		<br /><br /><b> Este ticket puede ser utilizado una sola vez</b><br /><br />
+		</p>
+		<p><b>Condiciones Generales:</B> <br/> No se puede combinar con otras ofertas ni ser intercambiado por efectivo o cr&eacute;dito en el establecimiento. Debe ser canjeado en una &uacute;nica visita</p>
+
+		%%GLOBAL_EmailFooter%%
+		<br />
+		Por consultas, reclamos o sugerencias, envíanos un e-mail a <a href="mailto:info@vivoensale.com">info@vivoensale.com</a> y te responderemos a la brevedad.
+	</div>
+</body>
+</html>

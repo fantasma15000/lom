@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                                        <dealandiaApi:city-list
+                                        xmlns:dealandiaApi="http://www.dealandia.com/ns/2010/09"
+                                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                        xsi:schemaLocation="http://www.dealandia.com/ns/2010/09
+                                        http://dealandia.com/schema/2011/06/dealandia-api-schema.xsd">
