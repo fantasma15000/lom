@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:isc="http://dtd.interspire.com/rss/isc-1.0.dtd">
+	<channel>
+		<title><![CDATA[VivoenSale.com: &uacute;ltimas noticias]]></title>
+		<link>http://www.vivoensale.com</link>
+		<description><![CDATA[Las &uacute;ltimas noticias de VivoenSale.com.]]></description>
+		<pubDate>Tue, 11 Oct 2011 15:13:13 +0000</pubDate>
+		<isc:store_title><![CDATA[VivoenSale.com]]></isc:store_title>
+	</channel>
+</rss>

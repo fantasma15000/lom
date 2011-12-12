@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:isc="http://dtd.interspire.com/rss/isc-1.0.dtd">
+	<title type="html"><![CDATA[VivoenSale.com: Productos populares]]></title>
+	<subtitle type="html"><![CDATA[Lista de los productos populares en VivoenSale.com.]]></subtitle>
+	<link rel="self" href="http://www.vivoensale.com/rss.php?action=popularproducts&amp;categoryid=36&amp;type=atom" />
+	<id>http://www.vivoensale.com</id>
+	<updated>2011-09-01T16:45:35Z</updated>
+			<isc:store_title><![CDATA[VivoenSale.com]]></isc:store_title>
+</feed>

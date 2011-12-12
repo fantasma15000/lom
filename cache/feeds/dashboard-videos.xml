@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<videos>
+	<width>850</width>
+	<height>650</height>
+	<video>
+		<title>Change your store design</title>
+		<url>http://static.interspire.com/support-videos/isc/Store%20Design/Store%20Design.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/store-design.gif</preview>
+	</video>
+	<video>
+		<title>Configure shipping methods</title>
+		<url>http://static.interspire.com/support-videos/isc/Shipping%20Modules/Shipping-Modules.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/shipping-methods.gif</preview>
+	</video>
+	<video>
+		<title>Import products from a CSV file</title>
+		<url>http://static.interspire.com/support-videos/isc/Import%20Products/Import%20Products.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/import-products.gif</preview>
+	</video>
+	<video>
+		<title>Configure multiple currencies</title>
+		<url>http://static.interspire.com/support-videos/isc/Currencies/Currencies.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/currency.gif</preview>
+	</video>
+	<video>
+		<title>Configure checkout methods</title>
+		<url>http://static.interspire.com/support-videos/isc/Checkout%20Modules/Checkout-Modules.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/checkout-settings.gif</preview>
+	</video>
+	<video>
+		<title>Adding a product</title>
+		<url>http://static.interspire.com/support-videos/isc/Adding%20a%20Product/Adding%20a%20Product.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/add-products.gif</preview>
+	</video>
+	<video>
+		<title>Taking a phone order</title>
+		<url>http://static.interspire.com/support-videos/isc/Phone%20Orders/Phone%20Orders.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/phone-order.gif</preview>
+	</video>
+	<video>
+		<title>Restocking suggestions</title>
+		<url>http://static.interspire.com/support-videos/isc/Restock%20Suggestions/Restock%20Suggestions.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/restock.gif</preview>
+	</video>
+	<video>
+		<title>Setting inventory levels</title>
+		<url>http://static.interspire.com/support-videos/isc/Setting%20Inventory/Setting%20Inventory.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/inventory.gif</preview>
+	</video>
+	<video>
+		<title>Product variations 101</title>
+		<url>http://static.interspire.com/support-videos/isc/Variations/Variations.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/variations.gif</preview>
+	</video>
+	<video>
+		<title>Creating web pages</title>
+		<url>http://static.interspire.com/support-videos/isc/Add%20Web%20Pages/Add%20Web%20Pages.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/pages.gif</preview>
+	</video>
+	<video>
+		<title>Creating coupon codes</title>
+		<url>http://static.interspire.com/support-videos/isc/Coupon%20Codes/Coupon%20Codes.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/coupons.gif</preview>
+	</video>
+	<video>
+		<title>Offer discounts on products</title>
+		<url>http://static.interspire.com/support-videos/isc/Product%20Discounts/Product%20Discounts.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/discounts.gif</preview>
+	</video>
+	<video>
+		<title>Restricted user accounts</title>
+		<url>http://static.interspire.com/support-videos/isc/Restricted%20User%20Accounts/Restricted%20User%20Accounts.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/users.gif</preview>
+	</video>
+	<video>
+		<title>View revenue reports</title>
+		<url>http://static.interspire.com/support-videos/isc/Revenue%20Reports/Revenue%20Reports.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/statistics.gif</preview>
+	</video>
+	<video>
+		<title>Design mode 101</title>
+		<url>http://static.interspire.com/support-videos/isc/Design%20Mode/Design%20Mode.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/designmode.gif</preview>
+	</video>
+	<video>
+		<title>Collecting email addresses</title>
+		<url>http://static.interspire.com/support-videos/isc/Email%20Addresses/Email%20Addresses.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/emailcustomers.gif</preview>
+	</video>
+	<video>
+		<title>Email Marketer integration</title>
+		<url>http://static.interspire.com/support-videos/isc/Email%20Software%20Integration/Email%20Software%20Integration.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/iem.gif</preview>
+	</video>
+	<video>
+		<title>Wholesale pricing how to</title>
+		<url>http://static.interspire.com/support-videos/isc/Wholesalers/Wholesalers.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/wholesalers.gif</preview>
+	</video>
+	<video>
+		<title>Affiliate tracking integration</title>
+		<url>http://static.interspire.com/support-videos/isc/Affiliate%20Orders/Affiliate%20Orders.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/affiliate-orders.gif</preview>
+	</video>
+	<video>
+		<title>Selling gift certificates</title>
+		<url>http://static.interspire.com/support-videos/isc/Gift%20Certificates/Gift%20Certificates.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/gift-certs.gif</preview>
+	</video>
+	<video>
+		<title>Configuring gift wrapping</title>
+		<url>http://static.interspire.com/support-videos/isc/Gift%20Wrapping/Gift%20Wrapping.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/wrapping.gif</preview>
+	</video>
+	<video>
+		<title>Knowledge Manager integration</title>
+		<url>http://static.interspire.com/support-videos/isc/Knowledge%20Base/Knowledge%20Base.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/knowledge-base.gif</preview>
+	</video>
+	<video>
+		<title>Creating contact forms</title>
+		<url>http://static.interspire.com/support-videos/isc/Contact%20Forms/Contact%20Forms.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/contact-forms.gif</preview>
+	</video>
+	<video>
+		<title>Exchange rate updates</title>
+		<url>http://static.interspire.com/support-videos/isc/Exchange%20Rates/Exchange%20Rates.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/exchange-rates.gif</preview>
+	</video>
+	<video>
+		<title>Importing product images</title>
+		<url>http://static.interspire.com/support-videos/isc/Importing%20Pictures/Importing%20Pictures.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/importing-pictures.gif</preview>
+	</video>
+	<video>
+		<title>Email order notifications</title>
+		<url>http://static.interspire.com/support-videos/isc/Order%20Notifications/Order%20Notifications.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/notifications.gif</preview>
+	</video>
+	<video>
+		<title>Category display depth</title>
+		<url>http://static.interspire.com/support-videos/isc/Category%20Display%20Depth/Category%20Display%20Depth.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/category-depth.gif</preview>
+	</video>
+	<video>
+		<title>Store logs</title>
+		<url>http://static.interspire.com/support-videos/isc/Store%20Logs/Store%20Logs.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/store-logs.gif</preview>
+	</video>
+	<video>
+		<title>Exporting 101</title>
+		<url>http://static.interspire.com/support-videos/isc/Exporting%20101/Exporting%20101.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/exporting-101.gif</preview>
+	</video>
+	<video>
+		<title>Staff action log</title>
+		<url>http://static.interspire.com/support-videos/isc/Staff%20Action%20Log/Staff%20Action%20Log.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/staff-logs.gif</preview>
+	</video>
+	<video>
+		<title>Changing page text</title>
+		<url>http://static.interspire.com/support-videos/isc/Changing%20Page%20Text/Changing%20Page%20Text.htm</url>
+		<preview>http://www.buildertemplates.com/isc/support-videos/previews/changing-text.gif</preview>
+	</video>
+
+</videos>
