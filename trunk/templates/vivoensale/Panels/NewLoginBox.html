@@ -1,0 +1,23 @@
+<table cellspacing="0" cellpadding="0" border="0" width="300">
+		<form onsubmit="return check_login_form()" method="post" action="%%GLOBAL_ShopPathNormal%%/login.php?action=check_login">
+		<tbody><tr><td colspan="2"><h2>&#191;Ya est&aacute;s registrado?</h2>
+		<div class="regerror"><p>Se le ha enviado una nueva clave por mail</p></div></td>
+	    </tr>
+      <tr>
+        <td width="12%"><label>e-mail*</label></td>
+        <td width="34%"><input type="text" id="login_email" name="login_email"></td>
+        </tr>
+      <tr>
+        <td><label>Contrase&ntilde;a</label></td>
+        <td><input type="password" id="login_pass" name="login_pass"></td>
+        </tr>
+      <tr>
+        <td><input type="hidden" value="1" id="logueo0" name="logueo0"></td>
+        <td><a href="%%GLOBAL_ShopPathNormal%%/login.php?action=reset_password">Olvid&eacute; mi contrase&ntilde;a</a></td>
+        </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><input type="submit" style="cursor:pointer;" class="registerButton" value="Ingresar" name="Submit2"></td>
+        </tr>
+		</form>
+   </tbody></table>

@@ -1,0 +1,33 @@
+<tr>
+	<td class="CartThumb" style="%%GLOBAL_HideThumbColumn%%; text-align:left;">
+	<a href="%%GLOBAL_ProductLink%%" style="color:#ed6a8c;">%%GLOBAL_ProductName%%</a><br />
+		%%GLOBAL_ProductImage%%<br />
+			
+			%%GLOBAL_ProductOptions%%
+			<br />
+			%%GLOBAL_ProductAvailability%%
+			<div class="CartExpectedReleaseDate" style="%%GLOBAL_HideExpectedReleaseDate%%">(%%GLOBAL_ProductExpectedReleaseDate%%)</div>
+			%%GLOBAL_EventDate%%
+	</td>
+	<td>
+			<div style="%%GLOBAL_HideCartProductFields%%" class="CartProductFieldsLink">
+				%%LNG_ConfigurableOptions%%:
+				<a href="#" onclick="Cart.ShowEditOptionsInCartForm('%%GLOBAL_CartItemId%%'); return false;">%%LNG_Change%%</a>
+				%%GLOBAL_CartProductFields%%
+			</div>	
+	</td>
+	<td>
+		<div style="%%GLOBAL_HideCartItemRemove%%">
+			<a href="cart.php?action=remove&amp;item=%%GLOBAL_CartItemId%%" onclick="Cart.RemoveItem('%%GLOBAL_CartItemId%%'); return false;" class="CartRemoveLink">
+			Quitar
+		</div>
+	</td>
+	<td align="center" class="CartItemQuantity">		
+		<div style="float:left;">%%GLOBAL_CartItemQty%%</div>
+	</td>
+	<td align="center" class="CartItemIndividualPrice">
+		%%GLOBAL_ProductPrice%%
+	</td>
+	<td align="right" class="CartItemTotalPrice"><em class="ProductPrice">%%GLOBAL_ProductTotal%%</em></td>	
+	
+</tr>

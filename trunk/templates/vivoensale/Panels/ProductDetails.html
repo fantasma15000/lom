@@ -1,0 +1,127 @@
+<script type="text/javascript" src="%%GLOBAL_AppPath%%/javascript/jquery/plugins/jCarousel/jCarousel.js?%%GLOBAL_JSCacheToken%%"></script>
+
+<script type="text/javascript">//<![CDATA[
+var ThumbURLs = new Array();
+var ProductImageDescriptions = new Array();
+var CurrentProdThumbImage = %%GLOBAL_CurrentProdThumbImage%%;
+var ShowVariationThumb =false;
+var ProductThumbWidth = %%GLOBAL_ProductThumbWidth%%;
+var ProductThumbHeight =  %%GLOBAL_ProductThumbHeight%%;
+var ProductMaxZoomWidth = %%GLOBAL_ProductMaxZoomWidth%%;
+var ProductMaxZoomHeight =  %%GLOBAL_ProductMaxZoomHeight%%;
+var ProductTinyWidth = %%GLOBAL_ProductMaxTinyWidth%%;
+var ProductTinyHeight =  %%GLOBAL_ProductMaxTinyHeight%%;
+
+%%GLOBAL_ProdImageJavascript%%
+
+var ShowImageZoomer = %%GLOBAL_ShowImageZoomer%%;
+
+var productId = %%GLOBAL_ProductId%%;
+//]]>
+
+//Muestra minutos
+function reloj(){
+	
+		var ahora = new Date();
+		
+		var faltan = finaliza - ahora;
+
+	if(faltan > 0){
+		var segundos = Math.round(faltan/1000);
+		var minutos = Math.floor(segundos/60);
+		var segundos_s = segundos%60;
+		var horas = Math.floor(minutos/60);
+		var minutos_s = minutos%60;
+		var dias = Math.floor(horas/24);
+		var horas_s = horas%24;
+		
+		var segundosr = document.getElementById("segundos");
+		var horasr = document.getElementById("horas");
+		var minutosr = document.getElementById("minutos");
+		
+		segundosr.innerHTML = segundos_s;
+		horasr.innerHTML = horas;
+		minutosr.innerHTML = minutos_s;
+		
+		setTimeout("reloj()",1000);
+	}else{
+	}
+}
+
+var finaliza = new Date('%%GLOBAL_ProductPublishEnd%%');
+
+</script>
+%%Discount.FreeShippingEligibility%%
+
+<h2>%%GLOBAL_ProductName%%</h2>
+<div class="fullProductBox_vs">
+
+	<div class="leftProductBox_vs">
+		%%SNIPPET_ProductAddToCart%%		
+		
+		
+			<div id="tiempo" style="margin-left:0px; padding-top:10px;">
+			  <p>Faltan:</p>
+			  <div class="hora" id="horas">00</div><div class="hora" style="border: 1px solid #7da001; border-bottom: none; border-top: none;" id="minutos">00</div><div class="hora" id="segundos">00</div>
+			  <div class="tipohora">Horas</div><div class="tipohora">Minutos</div>
+			  <div class="tipohora">Segundos</div>
+			  <p>para que finalice la oferta.</p>
+		    </div>
+			<script type="text/javascript" language="javascript">				
+				reloj();
+			</script>
+		
+		
+		
+		<div id="compraron"><img border="0" width="32" height="32" class="usricon" src="%%GLOBAL_IMG_PATH%%/red/users_icon.png" />
+			<p><strong>%%GLOBAL_Compraron%%</strong> Personas han comprado esta Oferta!</p>
+			<hr>
+			<p>%%GLOBAL_MensajeOferta%%</p>
+		</div>			
+		
+	</div>
+	
+	<div class="rightProductBox_vs">
+		<div class="ProductThumb" style="width:500px; %%GLOBAL_HideProductThumb%%">
+
+			%%SNIPPET_ProductThumbImage%%   
+			
+			<div class="ImageCarouselBox" style="margin:0 auto; %%GLOBAL_HideImageCarousel%%; width:87%; float:left; margin-top:8px; margin-left:20px;">
+				<div class="ProductTinyImageList">
+					<ul style="float:left; margin-bottom:20px; width:85%;">
+						%%SNIPPET_ProductTinyImages%%
+					</ul>
+				</div>
+			</div>
+	
+			<br clear="all" />
+			<p> </p>
+			
+			<div class="product_share_g">
+				<div id="fb-root"></div>
+				<script src="http://connect.facebook.net/es_ES/all.js#xfbml=1"></script>
+				<fb:send href="%%GLOBAL_ProductLink%%" font=""></fb:send>
+				<a href="http://twitter.com/share" class="twitter-share-button" data-url="%%GLOBAL_ProductLink%%" data-text="%%GLOBAL_ProductName%%" data-count="none" data-via="comunidadpaw" data-lang="es">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>	
+			</div>
+			
+			%%Panel.ProductDescription%%
+		</div>
+	</div>
+	
+</div>
+<br clear="all" /><br />
+<div style="width:94%; padding-left:20px;">
+
+	<div class="empresa">
+		<img align="right" src="%%GLOBAL_ShopPathNormal%%/product_images/%%GLOBAL_BrandImageFile%%">
+		<h3>%%GLOBAL_BrandName%%</h3>
+		<p>%%GLOBAL_BrandInfo%%</p>
+		<p><a target="_blank" href="%%GLOBAL_BrandLink%%">%%GLOBAL_BrandLink%%</a></p>
+	</div>
+
+	<div class="empresa">
+		%%GLOBAL_BrandMap%%
+	</div>
+	
+</div>
+

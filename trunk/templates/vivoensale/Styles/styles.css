@@ -1,0 +1,2824 @@
+/* Global Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+/* General */
+body {
+	height: 100%;
+	color: #666666;
+    font-family: "Trebuchet MS",Arial,Verdana,"Courier New";
+    font-size: 12px;	
+}
+input, select {
+	font-size: 11px;
+}
+input {
+	padding: 1px;
+}
+input, select {
+	cursor: pointer;
+}
+input[type='text'], input[type='password'] {
+	cursor: text;
+}
+p {
+	line-height: 1.3;
+}
+a {
+	font-weight: normal;
+	text-decoration: underline;
+}
+h2, .TitleHeading {
+	font-size: 1.3em;
+	font-weight: bold;
+	margin: 6px 0 6px 0;
+}
+h3 {
+    color: #B0C703;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 15px;
+	margin-top:20px;
+	margin-bottom:10px;
+	line-height:25px;
+}
+h4 {
+	font-size: 1.1em;
+	margin-bottom: 4px;
+}
+img, img a {
+	border: 0;
+	
+}
+
+ul, ol {
+	margin: 0 0 10px 30px;
+}
+li {
+	margin: 0;
+	margin-bottom: 2px;
+	padding: 0;
+}
+blockquote {
+	margin-left: 28px;
+}
+select option {
+	padding: 0 10px;
+}
+hr {
+	margin: 10px 0;
+	padding: 0;
+	background: #e5e5e5;
+	height: 1px;
+	border:0;
+}
+#PageContent .BlockContent p{
+	color: #666;
+    font-family: "Trebuchet MS",Arial,Verdana,"Courier New";
+    font-size: 12px;	
+	line-height:19px;
+}
+
+/* Forms */
+.HorizontalFormContainer dl, .VerticalFormContainer dl {
+	margin: 0;
+}
+.HorizontalFormContainer dt {
+	width: 160px;
+	float: left;
+	clear: left;
+}
+.HorizontalFormContainer dd {
+	margin-left: 170px;
+}
+.HorizontalFormContainer dd.ProductField {
+	height: 20px;
+}
+
+.HorizontalFormContainer dt img {
+	vertical-align: middle;
+	float: left;
+}
+
+.HorizontalFormContainer dt .fieldLabel {
+	float:left;
+	padding-top: 4px;
+	padding-left: 4px;
+}
+.NarrowFormContainer dt {
+	width: 110px;
+}
+.NarrowFormContainer dd {
+	margin-left: 120px;
+}
+.HorizontalFormContainer p.Submit {
+	margin-left: 170px;
+}
+.NarrowFormContainer p.Submit {
+	margin-left: 120px;
+}
+.VerticalFormContainer dt {
+	margin-bottom: 6px;
+}
+.VerticalFormContainer dd {
+	margin-bottom: 6px;
+	margin-left: 10px;
+}
+/* Page Container */
+
+#head2{
+    background: url("../../vivoensale/images/red/bk_menupng.png") repeat scroll 0 0 transparent;
+    width: 100%;
+	color: #666666;
+    font-family: "Trebuchet MS",Arial,Verdana,"Courier New";
+    font-size: 12px;	
+	margin-bottom:50px;
+}
+	#head2 #menu{
+		margin: auto;
+		overflow: hidden;
+		width: 950px;	
+		height:31px;
+	}
+	#head2 #menu ul{
+		list-style: none outside none;
+		margin:0px;
+		padding:0px;
+	}
+	#head2 #menu .botonsocial{
+		padding: 6px 0 6px 12px;
+	}
+	
+		#head2 #menu ul li{
+			float:left;
+		}
+		#head2 #menu ul li a{
+			color: #666666;
+			display: block;
+			font-size: 12px;
+			padding: 6px 20px;		
+			font-family:"Trebuchet MS",Arial,Verdana,"Courier New";
+			text-decoration:none;
+		}
+		#head2 #menu ul li a:hover{
+			background: none repeat scroll 0 0 #3186B5;
+			color: #333333 !important;
+			padding: 6px 20px;			
+		}
+		#head2 #menu .botonsocial:hover {
+			background: none repeat scroll 0 0 transparent;
+			padding: 6px 0 6px 12px;
+		}		
+	#head2 #menu div.register{
+		float: right;
+		margin: auto;
+	}
+		#head2 #menu div.register ul {
+			margin: 0;
+			padding: 0;
+		}	
+			#head2 #menu div.register ul li{
+				float:left;
+			}
+				#head2 #menu div.register ul li a{
+					color: #2676D9;
+				}
+				#head2 #menu div.register ul li a img{
+					padding:3px;
+				}
+#Container {
+}
+/* Top Navigational Menu */
+#TopMenu {
+    height: 50px;
+    margin: 0 auto;
+    padding: 0 0 5px 5px;
+    width: 950px;
+}
+#TopMenu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#TopMenu li {
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background:url(../../vivoensale/images/red/sep_bl.jpg) left no-repeat;
+}
+#TopMenu #login{
+    float: right;
+    padding: 9px 0;
+    width: 455px;
+	*margin-top:2px;
+}
+#TopMenu #login ul li{
+    float: left;
+    margin: 0;
+	background:none;
+}
+
+#TopMenu #login label.usr {
+    color: #999999;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+#TopMenu #login input.usr {
+    color: #555555;
+    font-size: 11px;
+    margin: 5px;
+    padding: 3px;
+    width: 130px;
+}
+
+#TopMenu #login label.psw {
+    color: #999999;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+#TopMenu #login input.psw {
+    color: #555555;
+    font-size: 10px;
+    margin: 5px;
+    padding: 3px;
+    width: 75px;
+}
+#TopMenu #login input.button {
+    background: none repeat scroll 0 0 transparent;
+    color: #B0C703;
+    font-size: 12px;
+    font-weight: bold;
+    width: 70px;
+	border:0px;
+}
+
+#provincias{
+    color: #666666;
+    float: left;
+    font-family: "Trebuchet MS",Arial,Verdana,"Courier New";
+    font-size: 12px;
+    margin: 55px 0 0 324px;
+    text-align: center;
+}
+#provincias a.pcia{
+    color: #FFFFFF;
+    display: block;
+    font-size: 24px;
+	text-decoration:none;
+}
+#provincias img {
+    float: right;
+    margin: 1px 5px;
+}
+#provincias a.vermas {
+    color: #272526;
+    font-size: 11px;
+	text-decoration:none;
+}
+
+#recomenda{
+	background: url("../../vivoensale/images/red/bkg_recomendaamigos.jpg") no-repeat scroll right top transparent;
+    color: #FFFFFF;
+    height: 20px;
+    margin-left: 595px;
+    padding: 5px 10px;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 330px;
+		*margin-left: 106px;
+}
+#recomenda a img{
+	margin-right:10px;
+}
+#recomenda a {
+    color: #FFFFFF;
+	text-decoration:none;
+	font-family: "Trebuchet MS",Arial,Verdana,"Courier New";
+    font-size: 12px;	
+}
+#salesnews2{
+	float: right;
+    margin-right: 175px;
+    margin-top: 51px;
+    text-align: left;
+    width: 220px;
+}
+#salesnews2 ul {
+}
+#salesnews2 ul li{
+	list-style:none;
+}
+#salesnews2 p{
+	color: #333333;
+    font-weight: bold;
+    padding: 4px 0;
+	font-family: "Trebuchet MS",Arial,Verdana,"Courier New";
+    font-size: 12px;
+}
+
+#salesnews{
+	width:354px;
+}
+
+#foot{
+    background: none repeat scroll 0 0 #000000;
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+#foot_in {
+    margin: auto;
+    width: 888px;
+}
+.itemsfoot {
+    display: block;
+    float: left;
+    padding: 10px 30px 10px 10px;
+	font-family:"Trebuchet MS",Arial,Verdana,"Courier New";
+}
+.itemsfoot h4 {
+    color: #AAAAAA;
+    font-size: 16px;
+    padding-bottom: 12px;
+	font-weight: normal;
+}
+.itemsfoot p {
+    font-size: 10px;
+    line-height: 19px;
+    padding-bottom: 5px;
+}
+.itemsfoot a {
+    color: #666666;
+	text-decoration:none;
+}
+.itemsfoot a:hover{
+    color: #999;
+	text-decoration:none;
+	 font-weight: normal;
+}
+
+
+.buttonemail {
+    background: none repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    margin: 0;
+    width: 90px !important;
+	font-size:20px;
+	margin-top:-31px;
+	float:right;
+	border:0px;
+	margin-left:10px;
+		*margin-top:-35px !important;
+}
+#salesnews2 input.email{
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #666666;
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 5px 0;
+    width: 240px;
+	*margin-left:-20px;
+}
+
+#blackback{
+	background-image:url(../../vivoensale/images/backnegro.png);
+	background-repeat: repeat;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+#recomendar{
+	width:100%;
+	position:fixed;
+	z-index:101;
+}
+#inicioPopUp{
+	width:100%;
+	position:fixed;
+	z-index:101;
+}
+
+#main_rec {
+    background: url("../../vivoensale/images/fnd_mensaje.png") no-repeat scroll center 107px transparent;
+    display: block;
+    padding: 100px 0;
+}
+#main_rec #content2 {
+    height: 450px;
+    margin: auto;
+    width: 800px;
+}
+#textnform2 h1 {
+    color: #333333;
+    font-size: 28px;
+    padding: 15px 0;
+    text-align: left !important;
+	font-weight:normal;
+	font-family:"Trebuchet MS",Arial,Verdana,"Courier New";
+}
+#main_rec #content2 #textnform2 {
+    margin:60px auto 60px 212px;
+    width: 325px;
+}
+#main_rec #content2 #textnform2 ul {
+    margin-bottom: 25px;
+}
+#main_rec #content2 #textnform2 h1 {
+    color: #333333;
+    font-size: 28px;
+    padding: 15px 0;
+    text-align: center;
+	*padding-bottom:0px;
+}
+/*#main_rec #content2 #textnform2 input {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #666666;
+    margin: 0 15px;
+}*/
+
+.botonRecomenar{
+    background: none repeat scroll 0 0 #4AA0CF;
+    border: 0 none;
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 1px;
+    padding: 2px 5px;
+    text-decoration: none;
+}
+
+#main_rec #content2 #textnform2 input.email {
+    font-size: 24px;
+    margin-bottom: 30px;
+    padding: 5px 0;
+    width: 430px;
+}
+#main_rec #content2 #textnform2 select.provincia, #textnform2 input.nacimiento, #textnform2 label, #textnform2 p.sexo {
+    font-size: 16px;
+}
+#main_rec #content2 #textnform2 select.provincia {
+    border: 1px solid #AAAAAA;
+    color: #666666;
+    font-size: 16px;
+    width: 215px;
+}
+#main_rec #content2 #textnform2 input.nacimiento {
+    background: none repeat scroll 0 0 transparent;
+    color: #666666;
+    margin: 0;
+    width: 215px;
+}
+/*#main_rec #content2 #textnform2 label {
+    color: #333333;
+}*/
+#main_rec #content2 #textnform2 p.sexo {
+    color: #333333;
+    display: inline;
+}
+#main_rec #content2 #textnform2 input.sexo {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    display: inline;
+    margin-left: 20px;
+    width: 15px;
+}
+#main_rec #content2 #textnform2 input.buttonemail {
+    background: none repeat scroll 0 0 transparent;
+    color: #333333;
+    font-size: 20px;
+    margin: 0;
+    width: 205px;
+}
+#main_rec #content2 #textnform2 input.buttonemail:hover {
+    color: #4AA0CF;
+}
+#main_rec #content2 #textnform2 a:hover {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #4AA0CF;
+	text-decoration:none;
+}
+#main_rec #content2 #textnform2 a {
+    background: none repeat scroll 0 0 #4AA0CF;
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    padding: 2px 5px;
+	text-decoration:none;
+}
+#main_rec #content2 #textnform2 label.nombre, #textnform2 label.correo {
+    color: #666666;
+    font-size: 12px;
+}
+#main_rec #content2 #textnform2 input.nombre, #textnform2 input.correo {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #666666;
+    margin: 2px;
+    padding: 2px;
+	width:180px;
+}
+#main_rec #content2 #textnform2 input.nombre {
+    width: 100px;
+}
+/*#main_rec #content2 #textnform2 input.correo {
+    width: 195px;
+}*/
+#main_rec #content2 #textnform2 table {
+    margin: 5px 0;
+}
+
+/* Pages Menu */
+#Menu {
+	clear:both;
+	padding: 0;
+	height: 39px;
+	width:600px;
+	margin:-135px 0 0 0;
+	position:absolute
+}
+#Menu ul {
+	margin:  0;
+	padding: 0 0 0 0;
+	float:left;
+}
+#Menu li {
+	float: left;
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding:  0;
+}
+#Menu li.First {
+	background: none !important;
+}
+#Menu li a {
+	display: block;
+	float: left;
+	font-size: 0.85em;
+	font-weight: 400;
+	text-align: center;
+	padding: 6px 15px 0;
+	height: 24px;
+}
+#Menu li a:hover {
+	text-decoration: none !important;
+}
+#Menu li ul {
+	width: auto;
+	position: absolute;
+	clear: left;
+	top: 30px;
+	left: -1px;
+	display: none;
+	text-align: left;
+	font-size: 0.75em;
+	background: transparent;
+	z-index: 1;
+}
+#Menu li ul li {
+	clear: both;
+	color: white;
+	text-align: left;
+	background: transparent;
+}
+#Menu li ul li a {
+	padding:  10px;
+	font-size: 1em;
+	text-align: left;
+	margin: 0;
+	width: 120px;
+	height: auto;
+	font-size:.95em
+}
+#Menu li ul li a:hover {
+	text-decoration: none;
+}
+#Menu li:hover a, #Menu li.over a {
+	text-decoration: underline;
+}
+#Menu li ul li a, #Menu li.over li a {
+	text-decoration: none !important;
+}
+#Menu li:hover ul, #Menu li.over ul {
+	display: block;
+}
+/* Holly Hack. IE Requirement \*/
+* html #Menu ul li {
+	float: left;
+	height: 1%;
+}
+* html #Menu ul li a {
+	height: 1%;
+}
+/* End */
+
+
+/* Outer Content Wrapper (Surrounds header & content) */
+#Outer {
+	margin: 0 auto;
+	clear: both;
+	width:950px;
+}
+#Wrapper {
+	clear: both;
+	width:950px;
+	margin:0 auto;
+}
+/* Header */
+
+#Header {
+	height: 125px;
+	clear: both;
+	margin:0;
+	margin-left:-10px;
+}
+/* Logo */
+
+#Logo {
+	position:absolute;
+	background:url(../../vivoensale/images/red/logo.gif) no-repeat 0 16px;
+	padding: 0 0 10px 0;
+	margin:42px 0 0 10px;
+	*margin-left:-480px;
+}
+#Logo h1 {
+	font-size:2.2em;
+	font-weight: 700;
+	margin: 25px 0 0 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding:0;
+	text-transform:uppercase
+}
+#Logo h1 a {
+	text-decoration: none;
+}
+/* Top Search Form */
+#SearchForm {
+	margin:52px 0 0 680px;
+	position:absolute;
+	font-size:.75em;
+}
+#SearchForm label {
+	display:none;
+}
+#SearchForm input.Textbox {
+	width: 150px;
+	padding: 3px;
+}
+#SearchForm .Button {
+	width: 78px;
+	height: 23px;
+	padding: 0;
+	margin: -3px 0 0 5px;
+	vertical-align: middle;
+}
+#SearchForm p {
+	text-align: left;
+	margin: 0;
+	padding-top:5px;
+}
+#SearchForm a {
+}
+/* Left Content Area */
+
+.Left {
+	float: left;
+	min-height: 500px;
+	width: 700px;
+	margin:0 25px 0 0;
+	font-size: 0.85em;
+	padding:10px 0;
+}
+.Left h2 {
+	font-size: 1.6em;
+	margin: 0;
+	padding:7px 0 12px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:400;
+	/*word-spacing:-2px;*/
+	/*text-transform:uppercase*/
+}
+
+.registerButton{
+	background: url("../../vivoensale/images/red/bot_register.jpg") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+    font-size: 28px;
+    height: 55px;
+	padding:5px;
+}
+
+.Left li a:hover {
+	text-decoration: underline !important;
+}
+.Left .BlockContent {
+	margin: 0 10px 0 10px;
+}
+.Left ul {
+	margin: 0;
+	padding: 0;
+}
+.Left li {
+	clear: both;
+	list-style: none;
+	margin: 0;
+	padding: 3px 0;
+}
+.Left .BlockContent {
+	margin: 0;
+}
+.Left li {
+	padding:5px 0;
+}
+.Left li a {
+	//padding-left:5px;
+}
+.Left li a:hover {
+	text-decoration: none;
+}
+.Left #SideCategoryList li ul {
+	border-top: 1px solid #c5dde9;
+}
+.Left #SideCategoryList li.LastChild {
+	border-bottom: 0 !important;
+}
+.Left #SideCategoryList li a, .Left #SideShopByBrand li a {
+	padding-left:22px;
+	background:url(../../vivoensale/images/red/bg_sideli.gif) no-repeat 10px 5px
+}
+.Left #SideCategoryList li ul {
+	padding-left: 15px;
+}
+/* Primary Content Area */
+.Content {
+	float: left;
+	width: 225px;
+	min-height: 500px;
+	margin: 0;
+	padding: 10px 0;
+	font-size: 0.9em;
+}
+.Content .Block {
+	clear: both;
+}
+
+#rightBanner{
+    clear: right;
+    float: right;
+    text-align: left;
+    width: 238px;
+	color: #666666;
+    font-family: "Trebuchet MS",Arial,Verdana,"Courier New";
+    font-size: 12px;
+}
+
+
+.roundtop {
+    background: url("../../vivoensale/images/red/roundtop.png") no-repeat scroll 0 0 transparent;
+    height: 11px;
+    width: 238px;
+}
+.roundbot {
+    background: url("../../vivoensale/images/red/roundbot.png") no-repeat scroll 0 0 transparent;
+    height: 11px;
+    margin-bottom: 10px;
+    width: 238px;
+}
+.right_in {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    padding: 0 10px;
+}
+.right_in h1 {
+    color: #000000;
+    font-size: 16px;
+    padding: 0 0 5px;
+}
+.right_in > div {
+    margin-bottom: 10px;
+    overflow: auto;
+}
+.right_in .img {
+    float: left;
+    width: 109px;
+}
+.right_in .img img {
+    width: 109px;
+}
+.right_in .preciono, .right_in .preciosi {
+    color: #000000;
+    float: right;
+    font-size: 21px;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: line-through;
+    width: 100px;
+}
+.right_in .preciosi {
+    border-top: 1px solid #7DA001;
+    font-size: 27px;
+    text-decoration: none;
+}
+
+
+.Block {
+	padding-bottom:10px;
+}
+.Content .Block {
+	background:none !important;
+	border:none !important;
+}
+.Content h2, .TitleHeading {
+	font-size: 1.4em;
+	margin: 0;
+	padding:7px 0 12px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:400;
+	word-spacing:-2px;
+	text-transform:uppercase
+}
+.Content a:hover {
+	text-decoration: underline;
+}
+/* Primary Content Area (column span of 2) */
+.Content.Wide {
+	width:710px;
+}
+/* Primary Content Area (column span of 3 - spans entire page width) */
+.Content.Widest {
+	width:950px;
+}
+/* Right Content Area */
+.Right {
+	float: right;
+	min-height: 500px;
+	width: 173px;
+	font-size: 0.85em;
+	padding-bottom: 10px;
+	margin:0 0 0 14px;
+	display:none
+}
+.Right h2 {
+	font-size: 1.33em;
+	margin: 0 10px;
+	padding:10px 5px 0 5px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:700;
+	word-spacing:-2px
+}
+.Right a {
+	text-decoration:underline
+}
+.Right li a:hover {
+	text-decoration: none;
+}
+.Right .BlockContent {
+	margin: 0 10px 0 10px;
+}
+.Right ul {
+	margin: 0;
+	padding: 0;
+}
+.Right li {
+	clear: both;
+	list-style: none;
+	margin: 0;
+	padding: 3px 0;
+}
+.Right .BlockContent {
+	margin: 0 17px 0 17px;
+}
+.Right li {
+}
+.Right li a {
+	text-decoration: none;
+}
+.Right li a:hover {
+	text-decoration: underline;
+}
+.BrandCloud {
+}
+/* Page Footer */
+
+
+.rounfofertabot {
+    background: url("../../vivoensale/images/red/roundofertabot.png") no-repeat scroll 0 0 transparent;
+    clear: left;
+    float: left;
+    height: 11px;
+    margin-bottom: 10px;
+    width: 702px;
+}
+.rounfofertatop {
+    background: url("../../vivoensale/images/red/roundofertatop.png") no-repeat scroll 0 0 transparent;
+    clear: left;
+    float: left;
+    height: 11px;
+    margin: 0;
+    width: 702px;
+}
+.fullInnerBox{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    padding: 0 10px;
+    width: 680px;
+	font-family:"Trebuchet MS",Arial,Verdana,"Courier New";
+	color:#333;
+	font-size:12px;
+	line-height:15px;
+}
+.fullInnerBox h2{
+	font-family:"Trebuchet MS",Arial,Verdana,"Courier New";
+    color: #333333;
+    font-size: 28px;
+    padding: 20px 0;
+	font-weight:normal;
+	line-height:36px;
+}
+
+#publi{
+	color:#fff;
+	margin-left:10px;
+}
+
+#publi a{
+	color:#B0C703;
+	text-decoration: none;
+}
+#publi a:hover{
+	color:#7fcfff;
+	text-decoration: none;
+}
+
+#Footer {
+	clear: both;
+	font-size: 0.85em;
+	text-align: center;
+	margin:0 auto;
+	width:950px;
+}
+#Footer ul {
+	list-style: none;
+	margin: 0 0 30px 115px;
+	padding: 0;
+}
+#Footer li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#Footer li a {
+	text-decoration: none;
+	padding: 0 10px 0 10px;
+}
+/* Newsletter Subscription Form */
+#SideNewsletterBox {
+}
+.NewsletterSubscription {
+	clear: both;
+}
+.NewsletterSubscription label {
+	clear: both;
+	float: left;
+}
+.NewsletterSubscription input {
+	width: 150px;
+	font-size: 0.9em;
+	padding: 3px;
+	margin-bottom: 5px;
+}
+.NewsletterSubscription .Button {
+	width: 131px;
+	height: 23px;
+	border: 0;
+	margin: 6px auto;
+	vertical-align: middle;
+}
+/* Product Listings */
+
+.ProductList {
+	list-style: none;
+	margin: 0 -4px 0 -5px;
+	padding: 0;
+}
+.Content .ProductList li {
+	list-style: none;
+	float: left;
+	width: 162px;
+	font-size: 0.95em;
+	margin:5px 4px 4px 5px;
+	padding: 4px;
+	overflow: hidden;
+	min-height: 17em;
+}
+.ProductList a {
+	text-decoration: none;
+}
+.ProductList .ProductImage {
+	margin: 0 0 5px 0;
+	display: block;
+	height: 120px;
+	text-align: center;
+	overflow: hidden;
+	width:162px !important;
+}
+.ProductList p {
+	margin: 5px 0 5px 5px;
+}
+.ProductList strong, .ProductList strong a {
+	color: #050402;
+	font-weight:400;
+	padding-bottom:3px;
+	font-size:.99em
+}
+.Left .ProductList strong, .Left .ProductList strong a, .Right .ProductList strong, .Right .ProductList strong a {
+	font-weight:400;
+	display:block
+}
+.Left .TopSellers .ProductList strong, .Left .TopSellers .ProductList strong a, .Right .TopSellers .ProductList strong, .Right .TopSellers .ProductList strong a {
+	font-weight:700
+}
+.ProductPrice, .ProductList em {
+	font-style: normal;
+	font-weight: 400;
+}
+.ProductList .Rating {
+	font-size: 0.9em;
+	font-weight: bold;
+}
+.ProductList li .ProductCompareButton {
+	margin-top: 3px;
+	text-align: center;
+}
+.Left .ProductList .ProductImage, .Right .ProductList .ProductImage {
+	display: none;
+}
+.Left .ProductList li, .Right .ProductList li {
+	clear: both;
+	list-style: none;
+	margin: 0;
+	margin-top: 5px;
+	padding: 3px 0 5px 0;
+}
+.Right .SideCart p {
+	color: #000000;
+}/* Top Seller Block Specific */
+.Left .TopSellers li .TopSellerNumber, .Right .TopSellers li .TopSellerNumber { /* Contains the number of the item */
+	float: left;
+	width: 16px;
+	font-size: 1em;
+	padding: 4px 0 3px 4px;
+	display:none;
+}
+.Left .TopSellers .ProductDetails, .Right .TopSellers .ProductDetails { /* Contains the details of the item */
+	padding: 3px 0 3px 0;
+	font-weight:400
+}
+.Left .TopSellers li.TopSeller1, .Right .TopSellers li.TopSeller1 { /* No1 seller box */
+	clear: both;
+	float: left;
+	margin: 10px auto 5px auto;
+	padding: 4px;
+	overflow: visible;
+	display: inline;
+	width:126px;
+}
+.Left .TopSellers li.TopSeller1 img, .Right .TopSellers li.TopSeller1 img {
+	text-align: center;
+	overflow: hidden;
+	margin:0 auto;
+}
+.Left .TopSellers li.TopSeller1 .TopSellerNumber, .Right .TopSellers li.TopSeller1 .TopSellerNumber {
+	width: 51px;
+	height: 51px;
+	font-size: 2.6em;
+	padding: 8px 0 8px 0;
+	margin: 35px 0 0 80px;
+	text-align: center;
+	display: Block;
+	position:absolute;
+	font-weight:400 !important;
+	display:none;
+}
+.Left .TopSellers li.TopSeller1 .ProductDetails, .Right .TopSellers li.TopSeller1 .ProductDetails {
+	margin: 10px 6px;
+}
+.Left .TopSellers li.TopSeller1 .ProductImage, .Right .TopSellers li.TopSeller1 .ProductImage {
+	display: inline;
+	text-align: center;
+	overflow: hidden;
+	margin:0 auto;
+}
+.Left .TopSellers li.TopSeller1 .ProductImage a, .Right .TopSellers li.TopSeller1 .ProductImage a {
+	width: 130px;
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	margin:0 auto;
+}
+.Content .TopSellers li .TopSellerNumber {
+	display: none;
+}
+.Left .TopSellers .ProductActionAdd a, .Right .TopSellers .ProductActionAdd a {
+	font-weight:400 !important;
+}
+/* Page Breadcrumbs */
+.Breadcrumb ul, .Breadcrumb li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.Breadcrumb {
+	font-size: 0.95em;
+	padding: 15px 0 4px 0;
+	border-bottom: 1px solid #DCDFE2;
+}
+.Breadcrumb li {
+	padding-left: 6px;
+	display: inline;
+}
+.Breadcrumb li a {
+	padding:0 15px 0 5px;
+	background: url('../../vivoensale/images/BreadcrumbSep.gif') no-repeat 100% 5px;
+}
+.FindByCategory ul, .FindByCategory li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.FindByCategory li {
+	padding-left: 12px;
+	background: url('../../vivoensale/images/BreadcrumbSep.gif') no-repeat 3px 5px;
+	padding-right: 8px;
+	display: inline;
+}
+/* Miscellaneous Definitions */
+
+.Meta {
+	color: #444;
+	font-size: 0.93em;
+}
+.Left .FeedLink, .Right .FeedLink {
+	padding-right: 5px;
+}
+.Content .FeedLink {
+	margin-top: 4px;
+}
+.FloatRight {
+	float: right;
+}
+.FloatLeft {
+	float: left;
+}
+.ClearRight {
+	clear: right;
+}
+.ClearLeft {
+	clear: left;
+}
+.SortBox {
+	font-size: 0.95em;
+}
+.CompareButton {
+	clear: both;
+	text-align: right;
+	margin-top: 12px;
+	padding: 4px;
+}
+.Clear {
+	clear: both;
+}
+.Field45 {
+	width: 45px;
+}
+.Field100 {
+	width: 100px;
+}
+.Field150 {
+	width: 150px;
+}
+.Field200 {
+	width: 200px;
+}
+.Field250 {
+	width: 250px;
+}
+.Field300 {
+	width: 300px;
+}
+.Field350 {
+	width: 350px;
+}
+.Field400 {
+	width: 400px;
+}
+.MB10 {
+	margin-bottom:10px;
+}
+.MT0 {
+	margin-top:0px;
+}
+.LH140 {
+	line-height:140%;
+}
+.PLRB5 {
+	padding:0px 5px 5px 5px;
+}
+.PLR10 {
+	padding:0px 10px 0px 10px;
+}
+.PL20 {
+	padding:0px 0px 0px 20px;
+}
+	.PL20 a{
+		color:#666;
+	}
+.PL40 {
+	padding:0px 0px 0px 40px;
+}
+.ML20 {
+	margin:0px 0px 0px 20px;
+}
+.MT10 {
+	margin-top:10px;
+}
+.PL10 {
+	padding-left:10px;
+}
+.PB2 {
+	padding-bottom:2px;
+}
+.NoMarginBottom {
+	margin-bottom: 0;
+}
+.Required {
+	color: red;
+	font-weight: bold;
+	visibility: visible;
+}
+
+.InfoMessage {
+	padding: 8px 6px 8px 28px;
+	margin-bottom: 10px;
+}
+.SuccessMessage {
+	padding: 8px 6px 8px 28px;
+	margin-bottom: 10px;
+}
+.ErrorMessage {
+	padding: 8px 6px 8px 28px;
+	margin-bottom: 10px;
+}/************* Page Specific: Create Account / Login Page *************/
+.CreateAccount {
+	float: left;
+	width: 335px;
+	border-right: 1px solid #ccc;
+	padding-right: 20px;
+}
+.AccountLogin {
+	float: left;
+	padding-left: 20px;
+	width: 285px;
+}
+ul.ShippingAddressList, ul.ShippingAddressList li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.ShippingAddressList li {
+	width: 100%;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.PrimaryProductDetails .ProductThumb {
+	float: left;
+	width: 250px;
+	text-align: center;
+	padding-top:20px;
+}
+.PrimaryProductDetails .ProductMain {
+	width: 334px;
+	float: left;
+}
+.ProductDetailsGrid {
+	padding:0 10px;
+}
+.ProductDetailsGrid .DetailRow {
+	clear:both;
+	padding:5px 0;
+}
+.ProductDetailsGrid .Label {
+	font-weight:700;
+	float:left;
+	padding-right:15px;
+}
+.ProductDetailsGrid .BulkDiscount input {
+	margin:-3px 0 0 10px
+}
+#ProductDescription, #ProductByCategory, #ProductReviews {
+	padding:15px;
+}
+.Content .BlockContent {
+	padding:15px 0;
+}
+.mainpage .BlockContent, #ProductDescription .BlockContent, #ProductByCategory .BlockContent, #ProductReviews .BlockContent, #ProductDetails .BlockContent {
+	padding:0 !important;
+}
+.PrimaryProductDetails dl {
+	font-size: 0.90em;
+}
+.PrimaryProductDetails dt {
+	font-weight: bold;
+	width: 80px;
+	clear: left;
+}
+.PrimaryProductDetails dd {
+	margin-left: 90px;
+}
+.Right hr {
+	margin: 5px 0 0;
+}
+.Content h3 {
+	margin-bottom: 5px;
+}
+.ComparisonCheckbox {
+	float: left;
+}
+.SideRecentlyViewed .CompareButton {
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+.SideRecentlyViewed .ProductList li {
+	margin-left: 0;
+}
+.SideRecentlyViewed .ProductDetails {
+	margin-left: 20px;
+}
+/* Product Comparisons */
+.ComparisonTable {
+	width: 100%;
+}
+.ComparisonTable td {
+	vertical-align:top;
+	font-size: 11px
+}
+.CompareFieldName {
+	width:95px;
+	padding:8px 10px 8px 15px;
+}
+.CompareFieldTop {
+	padding:5px;
+	text-align:center;
+}
+.CompareFieldTop a {
+	text-decoration:none;
+	font-size:10px;
+}
+.CompareFieldTop a:hover {
+	text-decoration:underline;
+}
+.CompareLeft {
+	padding:5px 10px 5px 10px;
+}
+.CompareCenter {
+	text-align:center;
+	padding:5px;
+}
+.CompareRating {
+	text-align:center;
+	padding-top:8px;
+	vertical-align:middle;
+}
+.CompareProductOption {
+	margin-left:20px;
+	padding-left:5px;
+}
+.Availability {
+	color:gray;
+}
+.LittleNote {
+	color:gray;
+	font-size: 0.85em;
+}
+.ViewCartLink {
+	padding-left: 20px;
+	padding-top: 4px;
+	padding-bottom: 8px;
+	font-size:.9em
+}
+.CheckoutLink {
+	font-size:.9em
+}
+/* General Tables */
+table.General, table.CartContents, table.General {
+	width: 100%;
+	margin: 10px 0;
+}
+table.General thead tr th, table.CartContents thead tr th {
+	padding: 6px 10px;
+	text-align: left;
+}
+table.General tbody td, table.CartContents tbody td {
+	padding: 6px 10px;
+	vertical-align: top;
+}
+table.General tbody tr.First td {
+	border-top: 0;
+}
+/* Cart Contents Table */
+
+.CartContents tbody td {
+	border-bottom: 0;
+}
+.CartContents .ProductName a {
+	font-weight: bold;
+}
+.CartContents tfoot .SubTotal td {
+	text-align: right;
+	font-weight: bold;
+}
+.ProceedToCheckout {
+	text-align: right;
+}
+.Content .ProceedToCheckout {
+	width: 200px;
+	float: right;
+}
+.ProceedToCheckout a {
+	padding-top: 5px;
+}
+.ProductOptionList, .ProductOptionList li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.ProductOptionList {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.ProductOptionList li {
+	margin-bottom: 3px;
+	margin-left: 2px;
+}
+.ProductOptionList input {
+	vertical-align: middle;
+}
+.MiniCart .SubTotal {
+	text-align: center;
+	font-size: 115%;
+	color: #333;
+}
+.MiniCart .CartProductOptionList {
+	display: block;
+}
+.JustAddedProduct {
+	width: 128px;
+	overflow: hidden;
+	margin: auto;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.JustAddedProduct strong, .JustAddedProduct a {
+	font-weight: bold;
+	font-size: 1.02em;
+	display: block;
+	margin-bottom: 3px;
+}
+.CategoryPagination .PagingList, .CategoryPagination .PagingList li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.CategoryPagination {
+	padding: 5px;
+	text-align: center;
+}
+.CategoryPagination .PagingList li {
+	display: inline;
+	padding: 0 5px;
+}/* Quick Search */
+.QuickSearch {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	border-collapse: collapse;
+	background: #fff;
+	border: 1px solid #BFBFBF;
+}
+.QuickSearchTitle td, .QuickSearchAllResults td {
+	font-weight: bold;
+	padding: 4px;
+	font-size: 11px;
+}
+.QuickSearchResult td {
+	font-size: 11px;
+	padding:8px 0px 8px 8px;
+	cursor: pointer;
+}
+.QuickSearchResultImage {
+	margin-left: 4px;
+	margin-right: 10px;
+	text-align: center;
+}
+.QuickSearchResultNoImage {
+	padding-top: 10px;
+	color: #777;
+}
+.QuickSearchResultName {
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	padding-bottom: 5px;
+}
+.QuickSearchResult .Price {
+	font-size: 11px;
+}
+.QuickSearchHover td {
+	background: #E8F4F8;
+}
+.QuickSearchHover a {
+	text-decoration: underline;
+	font-weight:bold;
+}
+.QuickSearchAllResults {
+	text-indent: -7000px;
+}
+.QuickSearchAllResults a {
+	text-decoration: underline;
+	height: 25px;
+	display: block;
+	background: url('../../vivoensale/images/red/QuickSearchAllResultsButton.gif') no-repeat right;
+}
+.QuickSearchAllResults a:active, .QuickSearchAllResults a {
+	outline: none;
+	-moz-outline-style: none;
+}
+/* Brand Tag Clouds */
+.BrandCloud .smallest {
+	font-size:12px;
+}
+.BrandCloud .small {
+	font-size:15px;
+}
+.BrandCloud .medium {
+	font-size:18px;
+}
+.BrandCloud .large {
+	font-size:20px;
+}
+.BrandCloud .largest {
+	font-size:26px;
+}
+.BrandCloud a {
+	padding-right: 5px;
+}
+.DownloadExpires {
+	padding-top: 3px;
+	font-style: italic;
+	color: gray;
+}
+.DownloadExpiresToday {
+	color: red;
+}
+.CheckoutRedeemCoupon h4 {
+	margin-top: 0;
+}
+.CheckoutRedeemCoupon p {
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.BillingDetails {
+	float: left;
+	width: 48%;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+.ShippingDetails {
+	float: left;
+	width: 48%;
+	margin-bottom: 15px;
+}
+.ProductDetailsGrid dt {
+	width: 140px;
+	margin-bottom: 6px;
+	float: left;
+	font-weight: bold;
+}
+.ProductDetailsGrid dd {
+	margin-left: 140px;
+	margin-bottom: 6px;
+}
+.SubCategoryList {
+	/*padding: 4px;*/
+}
+.SubCategoryList ul, .SubCategoryList li {
+	list-style: none;
+	margin-left: 0;
+}
+.SubCategoryList li {
+	/*margin-bottom: 4px;
+	padding-left: 25px;
+	background: url('../../vivoensale/images/SubCategory.gif') no-repeat 3px 1px;*/
+}
+.SearchTips .Examples {
+	background: lightyellow;
+	padding: 8px;
+	border: 1px solid #aaa;
+	color: #555;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.PrimaryProductDetails .ProductThumb p {
+	margin-top: 10px;
+	font-size: 0.9em;
+}
+.ProductReviewList {
+	clear: both;
+}
+.SortBox select {
+	font-size: 0.9em;
+}
+.SortBox option {
+	color: #444;
+}
+.YourAccount li {
+	margin-bottom: 8px;
+}
+.SoldOut {
+	color: #999;
+}
+.RemoveFromWishlistForm {
+	margin: 5px;
+}
+.ShippingProviderList {
+	list-style: none;
+}
+small {
+	font-size: 11px;
+	color: gray;
+}
+.HowToPay {
+	margin-bottom: 10px;
+}
+.ProductList em, .ProductList .Rating {
+	display: block;
+	padding-bottom:3px;
+}
+.ProductOptionList {
+	display: block;
+}
+.GoogleCheckout p, .PayPalExpressCheckout p, .AlternativeCheckout p {
+	margin: 0;
+	font-size: 90%;
+}
+.GoogleCheckout, .PayPalExpressCheckout, .AlternativeCheckout {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.KeepShopping {
+	width: 450px;
+	clear: both;
+	text-align: right;
+}
+/** Top Right Locale Chooser (list of flags) **/
+#TopMenu li.Flag {
+	float: right;
+}
+#TopMenu li.Flag div {
+	border: 0;
+}
+#TopMenu li.Flag img {
+	margin: 3px;
+}
+#TopMenu li.Flag img.Last {
+	margin-right: 0px;
+}
+#TopMenu li.Flag img.Selected {
+	border: 2px solid #ffffaa;
+	margin: 1px 3px;
+}
+/** Currency Selector **/
+.CurrencyList dl {
+	margin: 0;
+	padding: 0;
+}
+.CurrencyList dd {
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid #EDECEC;
+	background-color: #F9F9F9;
+	clear: both;
+}
+.CurrencyList a {
+	padding: 0 3px 0 5px;
+	display: block;
+	line-height: 1.8;
+	text-decoration: none;
+	font-size: 11px;
+}
+.CurrencyList a.Sel {
+	background-color: #FFFFAA;
+}
+.CurrencyList a:hover .Text {
+	text-decoration: underline;
+}
+.CurrencyList a .Flag {
+	margin-top: 4px;
+	display: block;
+	float: left;
+	width: 24px;
+	padding-right: 2px;
+	vertical-align: middle;
+}
+.CurrencyList a .Text {
+	display: block;
+	padding-left: 24px;
+}
+.PrimaryProductDetails .YouSave {
+	font-weight: bold;
+	margin-top: 3px;
+	display: block;
+}
+/* Shipping Estimation on Cart Contents Page */
+.EstimateShipping {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-weight: normal;
+	width: 320px;
+	padding: 7px;
+	float: right;
+}
+.EstimateShipping dt {
+	width: 100px;
+	float: left;
+	margin-bottom: 8px;
+	clear: left;
+}
+.EstimateShipping dd {
+	margin-bottom: 8px;
+	font-weight: normal;
+	text-align: left;
+	margin-left: 114px;
+}
+.EstimateShipping p.Submit {
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+.EstimateShipping label {
+	display: block;
+	margin-bottom: 5px;
+}
+.EstimatedShippingMethods {
+	text-align: left;
+}
+.EstimatedShippingMethods table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.EstimatedShippingMethods .VendorShipping {
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+.EstimatedShippingMethods .Submit {
+	text-align: right;
+}
+.CartContents tfoot .SubTotal .EstimatedShippingMethods tbody td {
+	text-align: left;
+}
+.CartContents tfoot .SubTotal .EstimatedShippingMethods tbody td.Price {
+	text-align: right;
+}
+.SharePublicWishList {
+	background-color:lightyellow;
+	padding:5px;
+	border:1px solid #CDDEE2;
+}
+/* Express Checkout */
+.ExpressCheckoutBlock .ExpressCheckoutTitle {
+	position: relative;
+	padding: 6px;
+	margin-bottom: 10px;
+}
+.ExpressCheckoutBlock h3 a {
+	font-size: 12px;
+}
+.ExpressCheckoutBlock {
+	padding-top: 6px;
+}
+.ExpressCheckoutBlock .ExpressCheckoutCompletedContent {
+	display: none;
+}
+.ExpressCheckoutBlockCompleted .ExpressCheckoutCompletedContent {
+	display: inline;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: italic;
+}
+.ExpressCheckoutBlockCollapsed .ExpressCheckoutContent {
+	display: none;
+}
+a.ChangeLink {
+	position: absolute;
+	right: 15px;
+}
+.ExpressCheckoutBlock a.ChangeLink {
+	display: none;
+}
+.ExpressCheckoutBlockCompleted a.ChangeLink {
+	display: inline;
+	color:#666;
+}
+.ExpressCheckoutCompletedContent {
+	position: absolute;
+	left: 250px;
+}
+.LoadingIndicator {
+	margin-left: 10px;
+}
+.LoadingIndicator img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+#TopMenu li.HeaderLiveChat {
+	float: right;
+}
+#TopMenu li.HeaderLiveChat div {
+	border-left: 0;
+}
+.HeaderLiveChat img {
+	vertical-align: middle;
+}
+#ProductOtherDetails .ProductDetailsGrid {
+	margin-left: 25px;
+}
+.SubCategoryListGrid {
+	padding: 4px;
+}
+.SubCategoryListGrid ul, .SubCategoryListGrid li {
+	list-style: none;
+	margin-left: 0;
+}
+.SubCategoryListGrid li {
+	margin-bottom: 4px;
+	padding: 10px;
+	margin-left: 10px;
+	background: #fff;
+	float: left;
+	text-align: center;
+}
+.SubCategoryListGrid ol {
+	clear: both;
+}
+.SubBrandList {
+	padding: 4px;
+}
+.SubBrandList ul, .SubBrandList li {
+	list-style: none;
+	margin-left: 0;
+}
+.SubBrandList li {
+	margin-bottom: 4px;
+	padding-left: 25px;
+	background: url('../../vivoensale/images/SubBrand.gif') no-repeat 3px 1px;
+}
+.SubBrandListGrid {
+	padding: 4px;
+}
+.SubBrandListGrid ul, .SubBrandListGrid li {
+	list-style: none;
+	margin-left: 0;
+}
+.SubBrandListGrid li {
+	margin-bottom: 4px;
+	padding: 10px;
+	margin-left: 10px;
+	background: #fff;
+	float: left;
+	text-align: center;
+}
+.SubBrandListGrid ol {
+	clear: both;
+}
+.ProductAddToCart dt {
+	float: left;
+	font-weight: bold;
+	width: 140px;
+	margin-bottom: 4px;
+}
+.ProductAddToCart dt div.Required, #CartEditProductFieldsForm dt div.Required {
+	margin-left: -10px;
+}
+.ProductAddToCart dd {
+	margin-left: 140px;
+	margin-bottom: 4px;
+}
+.ProductAddToCart input.Textbox, #CartEditProductFieldsForm input.Textbox {
+	width:181px;
+}
+.ProductAddToCart textarea, #CartEditProductFieldsForm textarea {
+	width:183px;
+	height: 50px;
+}
+.ProductFields dd {
+	margin-bottom: 4px;
+	float:left;
+	margin-left:20px;
+}
+.ProductFields {
+	margin-bottom: 15px;
+}
+.ProductFields input.Textbox {
+	width:100%;
+}
+.ProductFields TextArea {
+	width:100%;
+}
+.CartContents .CartProductFieldsLink {
+	font-size: 11px;
+	color: #666;
+	margin-top: 6px;
+	padding-left: 22px;
+	background: url('../../vivoensale/images/GiftWrappingAvailable.gif') no-repeat;
+	padding-bottom: 4px;
+}
+.CartContents .CartProductFieldsRow {
+	border-top: 0;
+}
+.CartContents .CartProductFieldsRow dl {
+	margin-top:15px;
+}
+p.QuantityInput, p.AddCartButton {
+	text-align: center;
+}
+.ProductAddToCart dt.QuantityInput {
+	margin-top: 4px;
+}
+.ProductAddToCart dd.AddCartButton span {
+	margin-top: 4px;
+	padding-right: 5px;
+}
+.ProductActionAdd {
+	display: block;
+	margin: 5px auto;
+	width:107px;
+	height:35px;
+	text-align:center;
+	padding-top:3px;
+	font-size:.65em;
+	font-weight:400;
+	text-transform:uppercase
+}
+.ProductActionAdd a, .ProductActionAdd strong a, .ProductActionAdd a:hover, .ProductActionAdd strong a:hover {
+	text-decoration: none;
+}
+.ProductDetails, .ProductPriceRating {
+	padding:0 20px;
+}
+.Content .ProductDetails {
+}
+.Right .NewProducts .ProductDetails, .Right .NewProducts .ProductPriceRating {
+	padding:0 !important;
+}
+.TagList {
+	margin-top: 20px;
+}
+.CartThumb {
+	text-align: center;
+	width: 1px;
+}
+	.CartThumb img{
+		width:230px;
+	}
+	
+		
+.UtilityLinks a{
+	color:#86A603;
+}	
+	
+.WrappingOptions {
+	font-size: 11px;
+	color: #666;
+	margin-top: 6px;
+	padding-left: 22px;
+	background: url('../../vivoensale/images/GiftWrappingAvailable.gif') no-repeat;
+	padding-bottom: 4px;
+	line-height: 1.6;
+}
+.ViewAllLink a {
+	padding-top: 10px;
+	display: block;
+}
+.SelectGiftWrapMultiple {
+	max-height: 400px;
+}
+/* Tabbed Navigation */
+.TabNav, .TabNav li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.TabNav {
+	font-size: 11px;
+	margin-bottom: 10px;
+	padding: 6px 4px 6px 4px;
+}
+.TabNav li {
+	display: inline;
+}
+.TabNav li a {
+	position: relative;
+	top: 2px;
+	font-size: 12px;
+	padding: 4px 6px;
+	margin-right: 3px;
+	margin-top: 3px;
+	text-decoration: none;
+}
+.TabNav li a:hover {
+	text-decoration: none;
+}
+.TabNav li.Active a {
+	margin-top: 0px;
+	padding-top: 7px;
+	font-weight: bold;
+}
+.ProductAddToCart dd.AddCartButton div.BulkDiscount {
+	display: inline-block;
+	float:left;
+}
+.ProductAddToCart dd.AddCartButton div.BulkDiscount div.BulkDiscountLink {
+	padding-left: 4px;
+}
+#VendorLogo .BlockContent, #VendorPhoto .BlockContent {
+	margin: 0;
+	text-align: center;
+}
+.TransitTime {
+	font-weight: normal;
+	color: gray;
+}
+.Content .ProductList.List li {
+	margin: 0;
+	margin-top: 6px;
+	display: block;
+	width: auto;
+	min-height: 0;
+	float: none;
+	padding: 6px;
+	height: auto;
+	background-image: none;
+}
+.ProductList.List .ProductImage {
+	margin: 0;
+	padding: 0px;
+	margin-right: 15px;
+	float: left;
+	background-image: none;
+	width: 120px;
+}
+.ProductList.List .ProductDetails {
+	display: block;
+	clear: none;
+	padding: 0px;
+	margin: 0px;
+	margin-left: 135px;
+	text-align: left;
+	background-image: none;
+}
+.ProductList.List .ProductQty {
+	margin-left: 10px;
+}
+.ProductList.List .ProductDescription {
+	font-style: italic;
+	margin-top: 5px;
+}
+.ProductRightCol {
+	float: right;
+}
+.ProductList.List li .ProductCompareButton {
+	text-align: left;
+	margin-top: 10px;
+}
+.OrderItemMessage {
+	background-color:#fff1a8;
+	padding:7px;
+	margin:10px 0px 10px 0px;
+}
+/* Custom Fields - Start */
+
+.LittleNotePassword {
+	color:gray;
+	font-size: 0.85em;
+	padding:2px 0px 2px 0px;
+}
+.RequiredClear {
+	visibility: hidden;
+}
+.Left .AddCartButton input {
+	display:block;
+}
+/* Custom Fields - End */
+
+/* Product Details */
+.ProductDetailsGrid .DetailRow {
+	clear: left;
+	margin-top: 6px;
+	padding-left: 140px;
+}
+.ProductDetailsGrid .Label {
+	margin: 0 0 6px -140px;
+	float: left;
+	width: 130px;
+	font-weight: bold;
+	padding-top: 1px;
+	display: inline;
+	position: relative;
+	text-align: right;
+}
+.ProductDetailsGrid .Value {
+	display: inline;
+}
+.ProductDetailsGrid .Label .Required {
+	position: absolute;
+	left: -1em;
+}
+.ProductOptionList ul, .ProductOptionList li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.ProductOptionList li {
+	margin-bottom: 3px;
+}
+.ProductOptionList input {
+	vertical-align: middle;
+}
+/* Product Videos */
+
+#FeaturedVideo, #VideoList, #VideoSingle {
+	float: left;
+}
+#VideoList {
+	padding-left: 5px;
+}
+.VideoSeparator {
+	clear: both;
+}
+.videoRow {
+	clear: both;
+	margin-bottom: 4px;
+	display: block;
+	height: 75px;
+}
+.previewImageContainer {
+	height: 30px;
+	width: 50px;
+}
+.videoRow img {
+	float: left;
+	padding-right: 5px;
+}
+.videoRowTitle {
+	font-weight: bold;
+}
+.videoRowDescription {
+	max-height: 50px;
+	overflow:hidden;
+}
+.VideoOverlay {
+	background-image: url('../../vivoensale/images/VideoOverlay.png');
+	background-position: center center;
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	top: 0;
+}
+.VideoContentContainer {
+	position: relative;
+	margin-left: 3px;
+	padding-left: 92px;
+}
+/** If you change the width of the .VideoPreviewSize class below, change the padding-left of the .VideoContentContainer class above **/
+
+.VideoPreviewSize {
+	width: 92px;
+	height: 69px;
+}
+.videoRowLength {
+	padding-left: 4px;
+}
+.videoRow, .videoRowTitle, .videoRow img, .videoRowLength {
+	cursor: pointer;
+}
+#VideoList ul {
+	position: relative;
+	overflow-y: auto;
+	padding:0;
+	margin: 0;
+	width: 275px;
+	height: 265px;
+}
+#VideoSingle {
+	padding-left: 10px;
+	width:275px;
+}
+#VideoContainer {
+	padding: 5px 0 5px 5px;
+	height: 265px;
+}
+.HideElement {
+	display: none;
+}
+.VideoSingleTitle {
+	font-weight: bold;
+}
+.VideoSingleDescription {
+	padding-top: 10px;
+	overflow-y: auto;
+	height: 220px;
+	padding-right:5px;
+}
+.Left #VideoMiddleContainer, .Right #VideoMiddleContainer {
+	display: none;
+}
+.Content #VideoSideContainer {
+	display: none;
+}
+#VideoSideContainer ul {
+	text-align: center;
+}
+#VideoSideContainer ul li {
+	margin-bottom: 5px;
+}
+.VideoSideDescription {
+	padding: 2px 10px;
+}
+.VideoImageContainer {
+	position: relative;
+	float: left;
+}
+/** Search All Form Result - Start **/
+.SearchPaging {
+	float: right;
+	font-size: 0.95em;
+}
+.SearchSorting {
+	float: right;
+	font-size: 0.95em;
+	margin: 8px 0px;
+}
+.SearchSorting select {
+	font-size: 0.95em;
+}
+#SearchResultsCategoryAndBrand {
+	margin: 5px;
+	padding: 5px;
+}
+.ContentList em, .QuickSearchResultMeta em {
+	font-size: 0.8em;
+}
+/** Search All Form Result - End **/
+
+/** AJAX loading box - Start **/
+
+#AjaxLoading {
+	display: none;
+	text-align: center;
+	background: #FCF5AA;
+	width: 180px;
+	z-index: 10000000000;
+	padding: 5px 10px;
+}
+#AjaxLoading img {
+	vertical-align: bottom;
+	margin-right: 5px;
+}
+/** AJAX loading box - End **/
+#ProductDetails #ImageScrollPrev, #ProductDetails #ImageScrollNext {
+	float: left;
+	background:none;
+	border:none;
+	margin-top:16px;
+	cursor:pointer;
+	display: none;
+}
+#ProductDetails .ProductTinyImageList {
+	float: left;
+	margin-top:10px;
+	white-space:nowrap;
+	width: 80%;
+	overflow: hidden;
+	margin-left:auto;
+}
+#ProductDetails .ProductTinyImageList ul li {
+	width: 40px;
+	height: 30px;
+	overflow: hidden;
+	float: left;
+	margin-left:3px;
+	border: 1px solid gray;
+}
+#ProductDetails .ProductTinyImageList ul li div {
+	display: table-cell;
+	text-align: center;
+}
+#ProductDetails .ProductTinyImageList ul li #TinyOuterDiv {
+	/*border: 2px solid white;*/
+	border:0px !important;
+}
+#ProductDetails .ProductTinyImageList ul {
+	margin: 0pt;
+	padding: 0pt;
+	position: relative;
+	list-style-type: none;
+	white-space:nowrap;
+	width: 2500px;
+}
+#ProductDetails .ProductThumbImage {
+	height: 220px;
+	width: 220px;
+	overflow: hidden;
+	margin:auto;
+}
+.carousel {
+	position: relative;
+	visibility: hidden;
+	left: -5000px;
+	width: 180px;
+}
+.ProductThumbImage {
+	height: 266px;
+}
+
+/* Category flyout styles (structural) */
+
+/* Menu containers */
+#SideCategoryList .sf-menu,
+#SideCategoryList .sf-menu ul,
+#SideCategoryList .sf-menu li {
+	width: 225px; /* the width must be fixed to the use of floats */
+}
+
+#SideCategoryList .sf-menu li a{
+	background-position: 10px 10px;
+}
+
+/* Menu links */
+#SideCategoryList .sf-menu a {
+	padding: 7px 10px 7px 10px;
+	width: 205px; /* this + paddings must equal the root width above for hovers to work */
+}
+
+/* Child override: menu containers */
+#SideCategoryList .sf-menu ul {
+	left: 225px;
+}
+
+/* Child override: menu links */
+#SideCategoryList .sf-menu ul a {
+	padding: 7px 10px 7px 10px;
+	width: 205px; /* this + paddings must equal the child width above for hovers to work */
+}
+
+.provinciastopbox{
+	width:930px;
+	padding:15px;
+	border:1px solid #206598;
+	background-color:#2975A7;
+	margin: 0 auto;
+	height:115px;
+}
+	.provinciastopbox ul{
+		list-style:none;
+		margin:0px;
+		padding:0px;
+	}
+		.provinciastopbox ul li{
+			width:155px;
+			float:left;			
+		}
+			.provinciastopbox ul li a{
+				color: #FFFFFF;
+				font-size: 16px;
+				margin-right: 5px;
+				padding: 0 5px;			
+				text-decoration:none;
+			}
+			.provinciastopbox ul li a:hover{
+				background-color:#4196c5;
+				color:#fff;
+				text-decoration:none;
+			}
+/* End: category flyout styles */
+
+
+
+.fullProductBox_vs{
+	width:680px;
+}
+.leftProductBox_vs{
+	width:230px;
+	float:left;
+}
+.rightProductBox_vs{
+	width:450px;
+	float:left;
+}
+
+#valores {
+    overflow: auto;
+    padding: 0 15px 10px;
+}
+.antes {
+    color: #000000;
+    font-size: 31px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: line-through;
+	font-family:"Trebuchet MS",Arial,Verdana,"Courier New";
+	line-height:31px;
+}
+.ahora {
+    color: #000000;
+    font-size: 37px;
+    padding: 5px;
+    text-align: center;
+	font-family:"Trebuchet MS",Arial,Verdana,"Courier New";
+	line-height:37px;
+}
+
+#valores2 {
+    overflow: hidden;
+    padding: 12px 15px 0;	
+	height:54px!important;
+}
+.antes2 {
+    color: #000000;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: line-through;
+	font-family:"Trebuchet MS",Arial,Verdana,"Courier New";
+	line-height:15px;
+}
+.ahora2 {
+    color: #000000;
+    font-size: 18px;
+    padding: 5px;
+    text-align: center;
+	font-family:"Trebuchet MS",Arial,Verdana,"Courier New";
+	line-height:18px;
+}
+
+#deal_description{
+	float:left;
+	width:94%;
+}
+
+#deal_description .half {
+    float: left;
+    padding: 0 0 15px;
+    width: 220px;
+}
+
+#deal_description h2 {
+    color: #F25607;
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0 5px;
+    width: 100%;
+}
+
+#deal_description ul {
+    list-style-image: url("../../vivoensale/images/red/bullet-deal.gif");
+    margin-left: 15px;
+}
+#deal_description li {
+    margin-top: 3px;
+}
+#deal_description .full {
+    float: left;
+    width: 440px;
+}
+.product_share_g{
+}
+.product_share_g iframe{
+	vertical-align:top;
+}
+
+.empresa {
+    border: 1px solid #DDDDDD;
+    clear: both;
+    margin: 5px;
+    overflow: hidden;
+    padding: 10px;
+    text-align: left;
+}
+.empresa h3 {
+    background: url("../../vivoensale/images/red/info.png") no-repeat scroll left 2px transparent;
+    color: #3186B5;
+    font-size: 20px;
+    margin-left: 0px;
+    padding: 10px 10px 10px 20px;
+	margin-top:0px;
+}
+.empresa p {
+    padding-bottom: 5px;
+	font-family:"Trebuchet MS",Arial,Verdana,"Courier New";
+	color:#666;
+	font-size:12px;
+	line-height:16px;
+}
+.empresa ul {
+    padding: 5px 20px;
+}
+.empresa li {
+    list-style: circle outside none;
+}
+.empresa iframe {
+    height: 200px;
+    margin: 0;
+    width: 648px;
+}
+
+.empresa iframe {
+    height: 200px;
+    margin: 0;
+    width: 648px;
+}
+
+#SideCategoryNewProducts .BlockContent ul li{
+	width:168px !important;
+	background-color:#fff;
+	/*border:2px solid #86A603;*/
+	height:auto !important;
+	float:left !Important;
+}
+#SideCategoryNewProducts .BlockContent ul li .ProductImage{
+	float:left !important;
+	min-height:80px !important;
+	max-height:140px !important;
+	overflow:hidden;
+	height:auto !important;
+	margin-left:3px;
+	padding-top:5px !important;
+	padding-bottom:5px !important;
+		*margin-top:-40px;
+}
+	#SideCategoryNewProducts .BlockContent ul li .ProductImage img{
+		max-width:140px;
+	}
+	
+#SideCategoryNewProducts .BlockContent ul li .ProductDetails{	
+	font-family:"Trebuchet MS",Arial,Verdana,"Courier New";
+	color:#666;
+	font-size:12px;
+	line-height:16px;
+	height:170px;
+}
+	#SideCategoryNewProducts .BlockContent ul li .ProductDetails a{	
+		color:#333;
+		text-decoration:none;
+	}
+	#SideCategoryNewProducts .BlockContent ul li .ProductDetails a:hover{
+		color:#666;
+		text-decoration:none;
+	}	
+
+#SideCategoryNewProducts .BlockContent ul li .ProductPriceRating{	
+	font-family:"Trebuchet MS",Arial,Verdana,"Courier New";
+	color:#666;
+	font-size:16px;
+	line-height:10px;
+	text-align:center;
+	margin-top:10px;
+}
+
+
+#SideNewProducts .BlockContent ul li{
+	width:185px !important;
+	background-color:#fff;
+	border:2px solid #86A603;
+	height:245px !important;
+}
+#SideNewProducts .BlockContent ul li .ProductImage{
+	float:left !important;
+	min-height:80px !important;
+	max-height:140px !important;
+	overflow:hidden;
+	height:auto !important;
+	margin-left:10px;
+	padding-top:5px !important;
+	padding-bottom:5px !important;
+}
+	#SideNewProducts .BlockContent ul li .ProductImage img{
+		max-width:140px;
+	}
+	
+#SideNewProducts .BlockContent ul li .ProductDetails{	
+	font-family:"Trebuchet MS",Arial,Verdana,"Courier New";
+	color:#666;
+	font-size:12px;
+	line-height:16px;
+	height:170px;
+}
+	#SideNewProducts .BlockContent ul li .ProductDetails a{	
+		color:#333;
+		text-decoration:none;
+	}
+	#SideNewProducts .BlockContent ul li .ProductDetails a:hover{
+		color:#666;
+		text-decoration:none;
+	}	
+
+#SideNewProducts .BlockContent ul li .ProductPriceRating{	
+	font-family:"Trebuchet MS",Arial,Verdana,"Courier New";
+	color:#666;
+	font-size:16px;
+	line-height:10px;
+	text-align:center;
+	margin-top:10px;
+}
+
+#tiempo {
+    background: url("../../vivoensale/images/red/tiempo.jpg") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    height: 128px;
+    margin-left: -14px;
+    overflow: auto;
+    width: 215px;
+}
+#tiempo p {
+    text-align: center;
+	margin-bottom:10px;
+		*margin-bottom:0px;
+}
+.hora {
+    color: #222222;
+    float: left;
+    font-size: 33px;
+	*line-height:33px;
+    text-align: center;
+    width: 33%;
+	margin-top:10px;
+}
+.tipohora {
+    color: #222222;
+    float: left;
+    text-align: center;
+    width: 33%;
+	margin-top:10px;
+}
+
+#compraron {
+    overflow: auto;
+    padding: 0 15px 10px;
+}
+#compraron p {
+    text-align: left;
+}
+#compraron strong, #compraron img {
+    display: block;
+    float: left;
+    font-size: 28px;
+    margin: 5px 20px 5px 10px;
+	color:#666 !important;
+}
+#compraron .usricon {
+    float: right;
+    margin: 5px 0 5px 20px;
+}
+
+.topFooter{
+    background-color: #86A603;
+    color: #000;
+    font-size: 10px;
+    padding: 3px;
+    text-align: center;
+}
+	.topFooter a{
+		color: #000;
+		font-weight:bold;
+		text-decoration:underline;
+	}
+	.topFooter a:hover{
+		color: #000;
+		font-weight:bold;
+		text-decoration:none;
+	}	
+.sidedesc{
+	height:60px;
+}	
+
+.tinyImagesClass{
+	width:80px;
+	height:80px;
+	margin-right:10px;
+	border:0px !important;
+	float:left;	
+	margin-bottom:5px;
+	clear:none !important;
+	padding:0px !important;
+}
+	.tinyImagesClass img{
+		max-width:80px;
+		max-height:80px;
+	}
+	
+.ProductDescriptionContainer{
+	width:430px;
+}	
+
+#loginSalute {
+    color: #CCCCCC;
+    float: right;
+    font-family: trebuchet MS;
+    font-size: 13px;
+    padding-top: 6px;
+    text-align: left;
+    width: 155px;
+	overflow:hidden;
+}
+#loginSalute span {
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+
+
+.rounfofertabot_col {
+    background: url("../../vivoensale/images/red/roundofertabottom_col.png") no-repeat scroll 0 0 transparent;
+    clear: left;
+    float: left;
+    height: 11px;
+    margin-bottom: 10px;
+    width: 195px;
+	*margin-left:5px;
+}
+.rounfofertatop_col {
+    background: url("../../vivoensale/images/red/roundofertatop_col.png") no-repeat scroll 0 0 transparent;
+    clear: left;
+    float: left;
+    height: 11px;
+    margin: 0;
+    width: 195px;
+	*margin-left:5px;
+}
+.fullInnerBox_col{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    padding: 0 10px;
+    width: 680px;
+	font-family:"Trebuchet MS",Arial,Verdana,"Courier New";
+	color:#333;
+	font-size:12px;
+	line-height:15px;
+	width:173px;
+}
+
+.closeButtonForPopUps{
+	margin-left: 182px;
+    margin-top: -30px;
+		*margin-top: 30px;
+		*margin-left: -32px;		
+    position: absolute;
+}
+	.closeButtonForPopUps img{
+		border:0px;
+	}
+	
+#shippinginfo, #shippinginfo1{
+    border: 1px solid #ECECEC;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 400px;
+	background-color:#F7F4F4;
+}	

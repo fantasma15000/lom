@@ -1,0 +1,58 @@
+%%GLOBAL_AddToCartButtonControlScript%%
+<form method="post" action="%%GLOBAL_CartLink%%" onsubmit="return check_add_to_cart(this, %%GLOBAL_ProductOptionRequired%%) %%GLOBAL_FastCartButtonJs%%"  enctype="multipart/form-data" id="productDetailsAddToCartForm">
+    <input type="hidden" name="action" value="add" />
+    <input type="hidden" name="product_id" value="%%GLOBAL_ProductId%%" />
+    <input type="hidden" name="variation_id" class="CartVariationId" value="" />
+    <input type="hidden" name="currency_id" value="" />
+    <div class="ProductDetailsGrid ProductAddToCart">
+		%%SNIPPET_ProductFieldsList%%
+		
+<div class="Value AddCartButton">
+
+		<div class="caco_g ProductOptionList">
+
+			%%SNIPPET_EventDate%%
+			<div class="rightdata_g">
+				
+					%%GLOBAL_AddToCartButtonOptimizerScriptTag%%
+                        %%GLOBAL_botonCompra%%
+                    %%GLOBAL_AddToCartButtonOptimizerNoScriptTag%%
+				<div class="BulkDiscount">            
+                    <div class="BulkDiscountLink" style="display: %%GLOBAL_HideBulkDiscountLink%%;">
+                        <a href="#" onclick="$.iModal({data: $('#ProductDetailsBulkDiscountThickBox').html(), width: 600}); return false;">
+                            %%LNG_BulkDiscountLink%%
+                        </a>
+                    </div>
+                </div>				
+				
+			
+			</div>
+		</div>	
+
+</div>	
+
+    </div>
+</form>		
+
+<div id="valores">
+	<div class="antes">%%GLOBAL_RetailPrice%%</div>
+	<div style="border-top: 1px solid #7da001;" class="ahora">%%GLOBAL_ProductPrice%%</div>
+</div>				
+				
+
+<div class="OutOfStockMessage">
+    %%SNIPPET_SideAddItemSoldOut%%
+</div>
+
+%%GLOBAL_ProductBulkDiscountThickBox%%
+
+<script language="javascript" type="text/javascript">//<![CDATA[
+lang.OptionMessage = "%%GLOBAL_OptionMessage%%";
+lang.VariationSoldOutMessage = "%%LNG_VariationSoldOutMessage%%";
+lang.InvalidQuantity = "%%LNG_InvalidQuantity%%";
+lang.EnterRequiredField = "%%LNG_EnterRequiredField%%";
+lang.InvalidFileTypeJS = "%%LNG_InvalidFileTypeJS%%";
+var ShowAddToCartQtyBox = "%%GLOBAL_ShowAddToCartQtyBox%%";
+%%GLOBAL_ProductMinMaxQtyJavascript%%
+//]]></script>
+%%GLOBAL_EventDateJavascript%%

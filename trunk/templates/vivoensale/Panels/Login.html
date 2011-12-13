@@ -1,0 +1,13 @@
+	<div id="login" style="display:%%GLOBAL_ShowLogin%%">
+		<form onsubmit="return check_login_form2()" method="post" action="%%GLOBAL_ShopPathNormal%%/login.php?action=check_login">		
+			<ul>
+				<li><label class="usr" for="user">E-mail</label><input type="text" class="usr" id="login_email2" name="login_email" /></li>
+				<li><label class="psw" for="pass">Contrase&ntilde;a</label><input type="password" class="psw" id="login_pass2" name="login_pass" /></li>
+				<li><input type="submit" value="Login" id="submitlog" class="button" name="submitlog" /></li>
+			</ul>
+		</form>						
+	</div>
+	
+	<div id="loginSalute" style="display:%%GLOBAL_ShowSalute%%">
+		Hola <span>%%GLOBAL_UserNames%%</span>
+	</div>	
