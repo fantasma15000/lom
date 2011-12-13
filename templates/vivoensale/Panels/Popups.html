@@ -1,0 +1,110 @@
+<!-- pop up recomendar a un amigo -->
+<div id="recomendar" style="display:none;">
+	<div id="main_rec">
+		<div id="content2">
+		<div class="closeButtonForPopUps"><a href="javascript: showPopUp('recomendar', 0);"><img src="%%GLOBAL_IMG_PATH%%/red/botoncerrar.gif" alt="" /></a></div>
+			<div id="textnform2" style="*padding-top:57px;">
+				<form id="recoform" method="post" action="javascript: sendRecommend();" onsubmit="javascript: return validateRecoForm();">
+					  <h1>&#161;Recomendar!</h1>
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+						<tbody>
+						<tr>
+							<td width="36%">
+								<label class="nombre">Tu Nombre:</label>
+							</td>
+							<td width="64%"><input type="text" id="tunombre" class="correo" name="tunombre"></td>
+						</tr>
+						<tr>
+							<td><label class="correo">Tu E-mail:</label></td>
+							<td><input type="text" id="tuemail" class="correo" name="tuemail"></td>
+						</tr>
+						<tr>
+							<td width="36%">
+								<label class="nombre">Nombre de tu amigo:</label>
+							</td>
+							<td width="64%"><input type="text" id="rnombre1" class="correo" name="rnombre1"></td>
+						</tr>
+						<tr>
+							<td><label class="correo">E-mail de tu amigo:</label></td>
+							<td><input type="text" id="remail1" class="correo" name="remail1"></td>
+						</tr>
+						<tr>
+							<td width="36%">
+								<label class="nombre">Nombre de tu amigo:</label>
+							</td>
+							<td width="64%"><input type="text" id="rnombre2" class="correo" name="rnombre2"></td>
+						</tr>
+						<tr>
+							<td><label class="correo">E-mail de tu amigo:</label></td>
+							<td><input type="text" id="remail2" class="correo" name="remail2"></td>
+						</tr>
+						<input type="hidden" value="1" id="recomendarsent" name="recomendarsent">
+					</tbody></table>
+					<p><a href="javascript: showPopUp('recomendar', 0);">Volver</a></p>
+					<input style="float:right;" class="botonRecomenar" id="recobut" type="submit" value="&#161;Recomendar!" onmouseover="javascript: swapButtonHover('recobut', 1);" onmouseout="javascript: swapButtonHover('recobut', 0);" />
+				</form>
+			</div>
+		</div>
+	</div>
+</div>	
+
+
+<!-- pop up inicial -->
+<div id="inicioPopUp" style="display:none;">
+	<div id="main_rec">
+		<div id="content2">
+		<div class="closeButtonForPopUps" style="margin-top:-58px;*margin-top:27px;"><a href="javascript: showPopUp('inicioPopUp', 0);"><img src="%%GLOBAL_IMG_PATH%%/red/botoncerrar.gif" alt="" /></a></div>
+			<div id="textnform2" style="margin-top:85px; *padding-top:100px;">
+				<form id="recoform" method="post" action="javascript: sendSuscribe();" onsubmit="javascript: return validateSubsForm();">
+					  <h1>&#161;Suscribite!</h1>
+					<table width="100%" cellspacing="0" cellpadding="0" border="0">
+						<tbody>
+						<tr>
+							<td width="36%">
+								<label class="nombre">Tu Email:</label>
+							</td>
+							<td width="64%"><input type="text" id="subemail" class="correo" name="subemail"></td>
+						</tr>						
+						<tr>
+							<td width="36%">
+								<label class="nombre">Tu Ciudad:</label>
+							</td>
+							<td width="64%">
+								<select name="tuciudad" id="tuciudad">									
+									<option value="18">Buenos Aires</option>
+									<option selected value="41">Capital Federal</option>
+									<option value="19">Catamarca</option>
+									<option value="20">Chaco</option>
+									<option value="21">Chubut</option>
+									<option value="22">C&oacute;rdoba</option>
+									<option value="23">Corrientes</option>
+									<option value="24">Entre R&iacute;os</option>
+									<option value="25">Formosa</option>
+									<option value="26">Jujuy</option>
+									<option value="27">La Pampa</option>
+									<option value="28">La Rioja</option>
+									<option value="29">Mendoza</option>
+									<option value="30">Misiones</option>
+									<option value="31">Neuqu&eacute;n</option>
+									<option value="32">R&iacute;o Negro</option>
+									<option value="33">Salta</option>
+									<option value="34">San Juan</option>
+									<option value="35">San Luis</option>
+									<option value="36">Santa Cruz</option>
+									<option value="37">Santa Fe</option>
+									<option value="38">Stgo. del Estero</option>
+									<option value="39">Tierra del Fuego</option>
+									<option value="40">Tucum&aacute;n</option>
+								</select>
+							</td>
+						</tr>
+
+						<input type="hidden" value="1" id="inicioPopUpsent" name="inicioPopUpsent">
+					</tbody></table>
+					<p><a href="javascript: showPopUp('inicioPopUp', 0);">Ya estoy registrado</a></p>
+					<input style="float:right;" class="botonRecomenar" id="susbut" type="submit" value="&#161;Suscribite!" onmouseover="javascript: swapButtonHover('susbut', 1);" onmouseout="javascript: swapButtonHover('susbut', 0);" />
+				</form>
+			</div>
+		</div>
+	</div>
+</div>	

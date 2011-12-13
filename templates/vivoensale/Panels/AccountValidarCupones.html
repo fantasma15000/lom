@@ -1,0 +1,32 @@
+<div class="Block Moveable Panel AccountOrderStatus" id="AccountOrderStatus">
+	<h2>%%LNG_AccountValidarCupones%%</h2>
+	<div class="BlockContent">
+		<p>%%LNG_ValidarCuponesForm_desc%%</p>
+		<br /><br />
+			<form class="PL20" id="validarCuponesForm" method="post" action="" onsubmit="return validateValidarCuponesForm();">
+				<input type="hidden" value="7" id="page_id" name="page_id">
+				<div class="FormContainer HorizontalFormContainer">
+					<dl>
+						<dt style="display: ">&nbsp;&nbsp; %%LNG_ValidarCuponesForm_label1%%:</dt>
+						<dd style="display: "><input type="text" value="" class="Textbox Field200" id="cod1" name="cod1"></dd>
+
+						<dt style="display: ">&nbsp;&nbsp; %%LNG_ValidarCuponesForm_label2%%:</dt>
+						<dd style="display: "><input type="text" value="" class="Textbox Field200" id="cod2" name="cod2"></dd>
+					</dl>
+					<p class="Submit">
+						<input type="submit" class="registerButton" value="%%LNG_ValidarCuponesForm_button%%">
+					</p>
+					<input type="hidden" name="validarcuponessent" id="validarcuponessent" value="1" />
+				</div>
+			</form>		
+		
+		<div style="display:%%GLOBAL_HideCuponesVList%%">
+			<table>%%SNIPPET_AccountCuponesValidados%%</table>
+		</div>
+
+		<p class="InfoMessage" style="display:%%GLOBAL_HideCuponesVListEmpty%%; font-size:20px; color:red;">
+			Cup&oacute;n Invalido
+		</p>		
+		
+	</div>
+</div>	

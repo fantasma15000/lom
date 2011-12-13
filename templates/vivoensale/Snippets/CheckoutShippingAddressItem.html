@@ -1,0 +1,59 @@
+
+	<div class="PL20">
+		<ul class="ShippingAddressList">
+			<li>
+					
+				<h4>Producto con Env&iacute;o</h4>
+				<p>Tu compra esta casi terminada, solamente te faltan 2 pasos: <br/>
+						<li>1- Eleg&iacute; una forma de env&iacute;o</li>
+						Podes seleccionar Entrega en una Sucursal OCASA a elecci&oacute;n o Entrega en tu Domicilio<br/>
+						Si seleccionas la opci&oacute;n Sucursal, record&aacute; que tenes que acudir con tu DNI <br/>
+						Para entregas en Domicilio, el horario es de 9 a 18hs y debe haber una persona que reciba el pedido <br/>
+						<br/>No olvides apretar el boton <b>Grabar Datos de Env&iacute;o</b> antes de Continuar<br /><br />
+						</li>
+						
+				</p>
+				<p>
+				  %%GLOBAL_TextoOpciones%%
+				  <form name="shippingDataAdding" action="%%GLOBAL_ShopPath%%/checkout.php?action=save_shipper" method="post" onsubmit="return validateShipMethForm();">
+				  %%GLOBAL_SelectShippingOptions%%
+				</p>
+				
+				
+					<div id="shippinginfo" style="%%GLOBAL_ShippingInfoBoxDisplay%%">
+						<p class="UtilityLinks">
+							<strong>El producto se enviar&aacute; a la siguiente  direcci&oacute;n </strong>
+							(<a href="%%GLOBAL_ShopPath%%/account.php?action=edit_shipping_address&amp;address_id=%%GLOBAL_ShippingAddressId%%&amp;from=%%GLOBAL_FromURL%%">Cambiar</a>)
+						</p>
+							<p class="NoMarginBottom">
+							%%GLOBAL_ShipFullName%%<br />
+							%%GLOBAL_ShipAddressLine1%%<br />						
+							%%GLOBAL_ShipSuburb%%, %%GLOBAL_ShipState%% %%GLOBAL_ShipZip%%<br/>
+							%%GLOBAL_ShipCountry%%<br />
+							%%GLOBAL_ShipPhone%%
+						</p>
+						<input type="hidden" name="domicilioaddress" id="domicilioaddress" value="%%GLOBAL_ShipAddressLine1%% (CP: %%GLOBAL_ShipZip%%)" />
+						<input type="hidden" name="domiciliostate" id="domiciliostate" value="%%GLOBAL_ShipSuburb%%, %%GLOBAL_ShipState%%" />
+						<input type="hidden" name="domiciliocountry" id="domiciliocountry" value="%%GLOBAL_ShipCountry%%" />
+						<input type="hidden" name="domiciliophone" id="domiciliophone" value="%%GLOBAL_ShipPhone%%" />
+					</div>
+					
+					%%GLOBAL_hiddenMethodPrice%%
+					<div id="shippinginfo1" style="%%GLOBAL_ShippingSucursalOptionsDisplay%%">
+						%%GLOBAL_SucursalOptionsList%%
+						<br />Ingrese su DNI: <input type="text" name="dniparasucursal" id="dniparasucursal" value="" />
+						<br />*Confirme su Tel&eacute;fono: <input type="text" name="telparasucursal" id="telparasucursal" value="%%GLOBAL_Suctel%%" />
+						<br /><em style="font-size:10px;">*Para que desde la Sucursal le avisen cuando el producto est&aacute; listo para retirar.</em>
+					</div>
+					
+					<div id="actButton" style="display:none;">						
+						<input type="submit" value="Grabar Datos de Env&iacute;o" />
+					</div>
+					</form>
+					<p><br/><li>2- Continua hacia Mercado Pago haciendo click en <b>Continuar</b></li></p>
+			</li>
+		</ul>
+	</div>
+ 				
+
+	%%Panel.ChooseShippingAddressJavaScript%%

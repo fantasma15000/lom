@@ -1,0 +1,26 @@
+<li>
+	
+
+	<h3>%%LNG_Order%% #%%GLOBAL_OrderId%%</h3>
+	<p class="Meta">
+		%%LNG_OrderDate%%: %%GLOBAL_OrderDate%%
+	</p>
+
+	<p>%%LNG_ThisOrderIsMarkedAs%% <strong><em>%%GLOBAL_OrderStatus%%</em></strong></p>
+
+	<div style="display:%%GLOBAL_HidePaymentInstructions%%">
+		<p>%%LNG_YourOrderTotalIs%% <strong><em class="ProductPrice">%%GLOBAL_OrderTotal%%</em></strong></p>
+
+		<p><strong>%%LNG_HeresHowToPayForYourOrder%%:</strong></p>
+
+		<blockquote class="HowToPay">
+			<span style="display:%%GLOBAL_HidePaymentInstructions%%"><a href="%%GLOBAL_OrderInstructions%%">%%GLOBAL_OrderInstructions%%</a></span>
+		</blockquote>
+	</div>
+
+	<strong>%%LNG_YourOrderContainsTheFollowingItems2%%</strong>
+	<ul class="OrderItemList">
+		%%GLOBAL_AccountOrderItemList%%
+	</ul>
+	<hr />
+</li>
